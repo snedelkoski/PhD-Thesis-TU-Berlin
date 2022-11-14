@@ -1,4 +1,4 @@
-# S. Nedelkoski PhD Thesis on the topic of "Deep Anomaly Detection in Distributed Software System"
+# S. Nedelkoski - "Deep Anomaly Detection in Distributed Software System"
 
 ### Abstract
 
