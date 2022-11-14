@@ -1,0 +1,97 @@
+% Chapter 1
+\chapter{Introduction} % Chapter title
+\label{ch:introduction} % For referencing the chapter elsewhere, use 
+
+Distributed software systems are a key technology that transforms numerous industries including healthcare, finance, manufacturing, education, and transportation.
+Billions of devices and users communicate, compute, and store information, and thus depend on the reliability and availability of distributed systems such as cloud, high-performance computing (HPC), and other critical platforms. 
+% A distributed system has multiple components located on different machines, which communicate and coordinate actions over the network by passing messages to each other~\cite{tanenbaum2007distributed}. 
+Major companies have already utilized the benefits of transforming their monolithic or centralized software into distributed components~\cite{observability2020practical}. Most of the distributed software systems are based on the so-called (micro) service-oriented architecture (SOA) paradigm or its variants. The SOA enables rapid, frequent, and reliable delivery of large complex applications. These paradigms in software engineering provide flexibility of the systems, but also largely increase their complexity~\cite{esposito2016challenges}. 
+
+Owing to the complexity and inevitable weaknesses in the software and hardware, the systems are prone to failures~\cite{chandola2009anomaly, sultana2018survey}.
+Several studies showed that such failures lead to a decreased reliability, high financial costs, and can impact critical applications~\cite{zhang2015rapid,yuan2014simple,crameri2007staged}. Therefore, loss of control is not allowed for any system or infrastructure, as the quality of service (QoS) is of high importance~\cite{nedelkoski2020loganomaly}. 
+
+The large service providers are aware of the need for always-on services with a high availability, and thus already deployed numerous measures such as site reliability and DevOps engineers.
+However, the scale and complexity of the computer systems steadily increase to a level where the manual operation becomes infeasible. Operators start using artificial intelligence tools for automation in various operation tasks including system monitoring, anomaly detection, root cause analysis, and recovery.~\cite{nedelkoski2020loganomaly,nedelkoski2020selfsupervised}. 
+
+Anomaly detection is one of the essential steps toward supporting operations and ensuring reliability, security, and resilience of software systems~\cite{yeanomalycloud, doelitzscheranomalyclouds}. The automation in anomaly detection aims to reduce the time spent in finding the failures to help the development teams.
+It implies detection and recognition of patterns that do not conform to the expected system behavior~\cite{chandola2009anomaly}. 
+Unlike most of the machine learning problems and tasks that address majority, regular, or evident patterns, anomaly detection addresses minority, unpredictable/uncertain, and rare events, leading to some unique complexities~\cite{pang2020deep}.
+
+The diversity of the anomalies in distributed software systems is large. More than 60\% of the anomalies develop from operation processes such as software upgrades and configuration issues~\cite{gunawi2014bugs}, while the others are performance problems, component failures due to outages, and security incidents~\cite{nedelkoski2019anomaly}. Particularly, in complex computer systems, anomalies are associated with numerous unknowns. For example, instances with unobserved abrupt behaviours and distributions cannot be estimated until they occur, such as novel attacks, software bugs, and network intrusions. Anomalies are irregular, which implies that one class of anomalies may exhibit completely different characteristics from those of another class of anomalies. An anomaly can be related to a recent upgrade or network failure due to hardware problems~\cite{sillito2020failures}. Anomalies can also be not reflected in all monitoring sources. A recent study on distributed system failures and their mitigation~\cite{sillito2020failures} showed that, in the 31.3\% of the failures, the problem was not notified to the user through exceptions, while the others were notified only after long delays. This behavior threatens the data integrity during the period between the occurrence of the failure and its notification (if any) and hinders failure recovery actions. In 8.5\% of the failures, no indication of the failure was observed in the logs. These cases represent a high risk for system operators as they lack clues for understanding the failure and restoring the availability of services and resources. In most of the failures (37.5\%), the injected bugs propagated across several OpenStack components. Indeed, 68.3\% of these failures were notified by a component different from the injected component. 
+
+A prerequisite to capture the anomalies arising in these systems is the availability of system data, which in software systems are referred to as observability data~\cite{sridharan2018distributed}. They contain information about the runtime state. The data generated by distributed systems can be classified into three main categories: metrics, logs, and traces, also referred to as three pillars of observability. 
+
+The three major sources of system observability have specific characteristics and are complementary in unison. Each revealing shared but also specific anomalies. The utilization of the three sources of data provides maximum visibility of the behaviors of complex systems~\cite{sridharan2018distributed}. Improving the performance of the anomaly detection in each of the system data components by addressing the presented challenges increases the overall anomaly detection performance. Moreover, integrating them as one solution for anomaly detection increases the overall robustness and widens the spectrum of anomalies that can be detected. The combination of several observers and several methods can overcome the weaknesses and limitations attributed to single observers and single methods~\cite{JickTriangulation79,nedelkoski2019anomalymultimodal,nedelkoski2020data}.
+
+Despite the large number of anomaly detection approaches addressing each of the data sources, the task remains challenging owing to the changing complex environment~\cite{gunawi2014bugs,cotroneo2019bad}. Few challenges still need to be addressed, including the (1) reduction in the number of false alarms that overwhelm the system operators~\cite{zhu2019tools,pang2020deep}, (2) generalization of the methods in evolving software systems~\cite{nedelkoski2020loganomaly, nedelkoski2020selfsupervised, zhang2019robust, meng2019loganomaly}, (3) noise-resilient anomaly detection attributed to the low signal-to-noise ratio as numerous different components affect the response time of microservices such as switches, caching, routers, memory capacity, programming languages, thread and process concurrency, bugs, and volume of user requests, and (4) detection of complex anomalies that do not appear in all observability sources~\cite{gunawi2014bugs,sillito2020failures,zhu2019tools}.
+
+
+\section{Problem definition}\label{ch:introduction:sec:problemdefinition}
+This thesis is focused on anomaly detection from distributed software system data. The objective of this thesis is to
+
+\begin{center}
+\emph{"Improve the development, operation, and reliability of distributed software systems by developing robust methods for anomaly detection using system data."}
+\end{center}
+
+The objective of this thesis is addressed by decomposing the problem into the following components.
+
+\textbf{Metric analysis and anomaly detection.}
+In distributed systems, the metrics are noisy and fast-evolving over time, producing data with several distributions of normal system behaviour. This leads to two main challenges for modeling, the stochastic nature of the metric data and sequential properties that need to be preserved. We aim to address these issues in metric data to support the overall system anomaly detection.
+
+\textbf{Log analysis and anomaly detection.} Logs are widely available and integrated in almost every computer system. System components evolve and generate new logs due to software updates performed multiple times daily~\cite{shahin2017continuous}. The problem of generalization, robustness, and efficiency of anomaly detection in such evolving log data is attributed to the lack of accurate parsing and representative log vector representations. We aim to improve the log parsing and learning of log vector representations, which increases the generalization and performance of the log anomaly detection.
+
+\newpage
+
+\textbf{Trace analysis and anomaly detection.} Traces are complex structures and complement the metrics and logs, in a sense that they provide workflow information. This is request-centered information about all involved services. It correlates various components of the distributed system, where the detection of an anomaly often is related to the root cause. Detecting anomalies in tracing data is challenging owing to their structure, noise, representation, and constant system evolution due to new or updated services and hardware components. We aim to address the challenges and provide a reliable and robust detection of anomalies that includes an efficient anomaly detection on traces with different sizes, generalization on unseen traces, and identification of services that may be a root cause.
+
+\textbf{Integration of the detectors to detect complex anomalies.}  Complex anomalies occur due to the redundancy, complexity, and intractability inherited in the distributed systems. Examples of such anomalies are those that are not reflected in all observability data components and propagated anomalies reflected in a set of system components different than the faulty component. Full observability of the system helps reveal patterns that are not visible when using individual sources of information. We aim to evaluate how the anomalies are reflected in different data sources, classify the state of the system (e.g., normal, degraded, or failure), integrate the anomaly detectors, and show that their combination broadens the spectrum of detected anomalies in comparison to single methods.
+
+By the richness of information, difficulty of integration of the observability components, and system overhead, we rank the above components by importance as (1) log data, (2) tracing data, and (3) metric data. We emphasize the log data analysis as is available in almost every computer system and mostly used data source for troubleshooting~\cite{zhu2019tools}. 
+
+\section{Contributions}\label{ch:introduction:sec:contributions}
+This thesis proposes a set of methods to address the above problems. It contributes to the  area of computer science, particularly to the fields of machine learning and distributed software systems with focus on anomaly detection and troubleshooting of software systems.
+
+Considering the analysis of massive amount and complexity of the data generated from large-scale distributed systems as motivation, in this thesis, each of the presented anomaly detection methods belongs to the field of deep learning~\cite{hinton2006reducing,Goodfellow-et-al-2016}, and thus the adjective "deep" is used in the title.
+
+\newpage
+
+We summarize the contributions of this thesis as follows.
+
+\begin{enumerate}
+    \item \textbf{Method for detection and classification of anomalies utilizing metric data.} The high noise and constant evolution of the metric data require methods that capture multiple modes of normal operation. In this regard, we present stochastic recurrent neural networks based on variational inference. The core principle is to learn robust latent representations to capture normal patterns of a time series, considering both temporal dependence and stochasticity. In addition, we provide descriptive classification of the anomalies.
+    \item \textbf{Methods for log parsing and anomaly detection.} As a first step toward log anomaly detection, this thesis presents a novel log parsing approach. It has an impact on numerous log anomaly methods that make use of log parsers in their anomaly detection pipelines. The method reformulates the parsing problem as a language modelling task. The model enables learning log representations, which can be subsequently utilized for supervised and unsupervised anomaly detection. However, through an analysis we find a large gap between the results obtained by supervised and unsupervised learning methods. To bridge the gap, we describe a novel objective and model for anomaly detection in log data. It is a classification-based method to learn log representations in a manner to distinguish normal data from the system of interest and anomaly samples from auxiliary log datasets, cost-free and easily accessible through the internet. Through evaluations we show that the use of the auxiliary dataset is sufficiently informative for an accurate representation of the normal data, yet diverse to regularize against overfitting and improve the generalization. The method improves the log vector representations, and thus the anomaly detection.
+    \item \textbf{Method for trace anomaly detection.} We introduce a trace as a text representation, which enables anomaly detection using deep learning. We present a novel approach that addresses the problem of anomaly detection from distributed tracing data. The method is based on self-supervised learning. We formulate a learning task, a masked span prediction, which is used as a pseudo task for anomaly detection. The method uses the entire trace to detect execution time anomalies allowing to utilize the inherent properties of the tracing data with the help of a transformer neural network. We demonstrate an additional property of the method that enables tracking of the differences between the normal and abnormal traces, leading to an improved reasoning of the anomaly cause.
+    \item \textbf{Detection of complex anomalies by integration of the anomaly detectors.} Finally, we present a rule-based approach for combining the predictors. We propose a heuristic to classify the severity of the anomaly by its appearance in the data sources. Lastly, we evaluate how the anomalies are reflected in different data sources through real production scenarios and show the importance of the utilization of the three data components. 
+\end{enumerate}
+
+Each of the methods is implemented as a prototype and evaluated on benchmark datasets, experimental testbeds, and production data from a global service provider. 
+
+Parts of this thesis have been published in:\\
+\sloppy{
+\begin{refsection} % refsection environment
+\nocite{nedelkoski2020loganomaly,nedelkoski2020selfsupervised,nedelkoski2020selftracing,nedelkoski2019anomaly,nedelkoski2019anomalymultimodal,nedelkoski2020patent,nedelkoski2019distributions,nedelkoski2020data,nedelkoski2020jointmodalities,nedelkoski2019edge,nedelkoski2020patentjasmin,nedelkoski2020rca,nedelkoski2020kevin,nedelkoski2020simplenetwork,nedelkoski2020mary}
+
+%nedelkoski2020bigdatatransfer
+\printbibliography[heading=none] % print section bibliography
+\end{refsection}
+}
+
+Code and related resources for the open-sourced prototypes are available on GitHub~\footnote{https://github.com/snedelkoski}.
+
+\section{Outline of the thesis}\label{ch:introduction:sec:outline}
+
+The rest of this thesis is structured as follows.
+
+\textbf{~\autoref{ch:background}} presents the necessary background on modern distributed systems and their observability components, various approaches for anomaly detection, and analytical concepts required for the understanding of the methodology of this thesis.
+
+\textbf{~\autoref{ch:concepts}} describes the main problems and challenges of the anomaly detection of the system data. The chapter presents a reference architecture and positions the methods described in the thesis. It provides an overview of the proposed methods.
+
+\textbf{~\autoref{ch:metrics}} presents a method for anomaly detection and classification from time-series resource metric data. The chapter also presents the evaluation of the method on time series data from testbed microservice architectures and global industrial service provider. We conclude the chapter with a review of the related studies and summary.
+
+\textbf{~\autoref{ch:logs}} presents the challenges for log parsing, as the first step toward anomaly detection. We then present a novel self-supervised log parsing approach. The applicability of the presented parser for anomaly detection is demonstrated through an evaluation, two use cases, and their analysis. We present a novel log anomaly detection method with a new objective function. Through exhaustive experiments, we evaluate the method against previous state-of-the-art approaches to show its effectiveness. In the end of the chapter, we discuss the related studies and provide a summary of the contributions.
+
+\textbf{~\autoref{ch:traces}} introduces trace analogy to natural language sentence and simple sequential learning model for anomaly detection. It presents novel problem formulation and method based on self-supervised learning. It demonstrates an approach for localizing faulty services. We also evaluate the presented method, discuss related studies, and conclude the chapter with a summary.
+
+\textbf{~\autoref{ch:joint}} includes the motivation for the utilization of all three system sources for anomaly detection through practical examples, where the incidents are reflected in different data types. We then present and discuss three system health states, which depend on the data sources affected by an anomaly. We describe a flexible rule-based approach to integrate the detectors, and provide an evaluation. The chapter is concluded with a summary. 
+
+ \textbf{~\autoref{ch:conclusion}} summarizes our findings and identifies directions for future studies.

@@ -1,0 +1,38 @@
+% Abstract
+
+%\renewcommand{\abstractname}{Abstract} % Uncomment to change the name of the abstract
+
+\pdfbookmark[1]{Abstract}{Abstract} % Bookmark name visible in a PDF viewer
+
+\begingroup
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+\chapter*{Abstract}
+\sloppy{
+Artificial Intelligence for IT Operations (AIOps) combines big data and machine learning to replace a broad range of IT Operations tasks. The task of anomaly detection has a prominent position in ensuring the required reliability and safe operation in distributed software systems. However, the frequent software and hardware updates, system heterogeneity, and massive amount of data create a challenging environment. The detection of anomalies in these systems predominantly relies on metric, log, and trace data. Each of them provides a different view of the internal states of the systems. By induction, improving the detection in every data source increases the overall anomaly detection performance in the system. 
+
+This thesis provides the following contributions. (1) We present a method based on variational inference and recurrent neural network to address the detection of anomalies in system metric data that possibly exhibit multiple modes of normal operation. (2) We propose a novel log parsing through language modelling that enables learning of log representations for downstream anomaly detection. We identify the learning of log representations as a major challenge toward a robust anomaly detection. Therefore, we additionally design a method that learns log representations by distinguishing between normal data from the system of interest and easily accessible anomaly samples obtained through the internet. (3) We describe a self-supervised anomaly detection task that utilizes the entire trace information to robustly detect anomalies that propagate through system components. (4) In a rule-based approach, we combine the presented methods for a multi-view anomaly detection. 
+
+The methods presented in this thesis were implemented in prototypes and evaluated on various datasets including production data from a cloud provider. They provided (1) an F1 score of 0.85 on metric data, (2) parsing accuracy of 99\% and F1 score improvement of 0.25 in log anomaly detection, (3) increase in F1 score of 7\% in trace anomaly detection over the state of the art, and (4) broadened spectrum of detected anomalies. The results were peer-reviewed and published at renowned international conferences.
+
+}
+
+\newpage
+
+\chapter*{Zusammenfassung}
+
+\sloppy{
+Für den Betrieb großer und komplexer IT-Infrastrukturen in Rechenzentren werden immer häufiger KI-gestützte Methoden und Werkzeuge eingesetzt. Durch das Kombinieren von großen Mengen an Daten mit Machine Learning Prinzipien, können viele klassische Aufgaben in dem Betrieb und der Wartung von IT-Systemen ersetzt werden. Die Anomalieerkennung nimmt dabei eine besondere Stellung ein, um die geforderte Zuverlässigkeit und den sicheren Betrieb in verteilten Softwaresystemen zu gewährleisten. Die große Anzahl von heterogenen Komponenten und Diensten, häufige Software- und Hardware-Updates, die steigende Anzahl von Benutzern und Anwendungen sowie die riesigen zu verarbeitenden Datenmengen stellen eine signifikante Herausforderung dar. Die Anomalieerkennung in diesen Systemen basiert an mehreren komplementären Datenquellen (Metriken, Logs, Traces) zur Beschreibung und Analyse des aktuellen Systemzustandes, die zusammen einen einen gesamtheitlichen Einblick in das laufende System ermöglichen. Die Verbesserung der Anomalieerkennung in jeder der Datenquellen würde daher die Leistung der Anomalieerkennung im gesamten System verbessern. 
+
+In dieser Arbeit liefern wir die folgenden Beiträge. (1) Wir stellen eine Methode zur Anomalieerkennung in metrischen Daten (von Monitoringsystemen) vor, die auf Variationsinferenz und rekurrenten neuronalen Netzen basiert, um eine zuverlässige Detektion trotz des wechselnden Systemmodi und des Vorhandenseins von Rauschen zu ermöglichen. (2) Wir erwähnen eine neuartige Log-Parsing Methode die auf Sprachmodellierung basiert ist. Diese Methode ermöglicht das Lernen von Log-Repräsentationen für die Anomalieerkennung, was einen wichtigen Meilenstein für eine robuste Anomalieerkennung darstellt. Aus diesem Grund haben wir im Zusatz einen klassifikation-basierten Ansatz entwickelt, der Log-Repräsentationen durch die Unterscheidung zwischen normalen Daten des untersuchten Systems und online verfügbaren Anomalie-Muster lernen kann. (3) Wir beschreiben eine sich selbst überwachende Pseudo-Anomalie-Erkennungsaufgabe, welche die gesamten Trace-Information nutzt, um robust Anomalien zu erkennen, die sich auf mehrere Systemkomponenten verteilen. (4) In einem regelbasierten Ansatz kombinieren wir die vorgestellten Methoden, um Anomalieerkennung mittels mehrere Datenquellen zu ermöglichen.
+
+Die in dieser Arbeit vorgestellten Methoden wurden in Prototypen implementiert und auf verschiedenen Datensätzen, in experimentellen Testbeds und auf Produktionsdaten einer großen kommerziell eingesetzten Cloud-Infrastruktur evaluiert. Die Ergebnisse zeigten (1) einen F1-Score von durchschnittlich 0,85 auf Metrik-Daten, (2) eine Genauigkeit von 99\% beim Log-Parsing und eine Verbesserung des F1-Scores um 0,25 gegenüber dem Stand der Technik bei der Erkennung von Log-Anomalien, sowie (3) eine Steigerung des F1-Scores um 7\% gegenüber dem aktuellen Stand der Technik in Trace basierten Anomalieerkennung und (4) eine Erweiterung der Spektrum der erkennbaren Anomalien. Die  Gesamterkennung von Anomalien durch eine Kombination der Methoden führte ebenfalls zur Steigerung der Ergebnisse im Vergleich zu den Einzelmethoden. Die Erkenntnisse wurden auf renommierten internationalen Konferenzen veröffentlicht.
+
+
+}
+
+\endgroup			
+
+\vfill

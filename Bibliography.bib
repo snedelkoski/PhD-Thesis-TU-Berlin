@@ -1,0 +1,4057 @@
+@inproceedings{nedelkoski2020bigdatatransfer,
+  title={Robust and Transferable Anomaly Detection in Log Data using Pre-Trained Language Models},
+  author={Sasho Nedelkoski and Harald Ott and Jasmin Bogatinovski and Alexander Acker and Odej Kao},
+  booktitle={Proceedings of the 7th IEEE International Conference on Big Data (IEEE BigData 2020)},
+  pages={},
+  year={2020}
+}
+
+@inproceedings{nedelkoski2020kevin,
+  title={Autoencoder-based Condition Monitoring and Anomaly Detection Method for Rotating Machines},
+  author={Sabtain Ahmad and Kevin Styp-Rekowski and Sasho Nedelkoski and Odej Kao},
+  booktitle={Proceedings of the 7th IEEE International Conference on Big Data (IEEE BigData 2020)},
+  pages={},
+  year={2020}
+}
+
+
+
+@inproceedings{nedelkoski2020rca,
+  title={Performance Diagnosis in Cloud Microservices using Deep Learning},
+  author={Li Wu and Jasmin Bogatinovski and Sasho Nedelkoski and Johan Thordsson and Odej Kao},
+  booktitle={Proceedings of the 18th International Conference on Service-Oriented Computing, ICSOC 2020},
+  pages={},
+  year={2020}
+}
+
+@INPROCEEDINGS{nedelkoski2020loganomaly,
+  author={S. {Nedelkoski} and J. {Bogatinovski} and A. {Acker} and J. {Cardoso} and O. {Kao}},
+  booktitle={2020 IEEE International Conference on Data Mining (ICDM)}, 
+  title={Self-Attentive Classification-Based Anomaly Detection in Unstructured Logs}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1196-1201}}
+
+
+@INPROCEEDINGS{nedelkoski2020selftracing,
+  author={J. {Bogatinovski} and S. {Nedelkoski} and J. {Cardoso} and O. {Kao}},
+  booktitle={2020 IEEE/ACM 13th International Conference on Utility and Cloud Computing (UCC)}, 
+  title={Self-Supervised Anomaly Detection from Distributed Traces}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={342-347}}
+
+@inproceedings{nedelkoski2020simplenetwork,
+  title={Superiority of Simplicity: A Lightweight Model for Network Device Workload Prediction},
+  author={Thorsten Wittkopp and Alexander Acker and Sasho Nedelkoski and Jasmin Bogatinovski and Odej Kao},
+  booktitle={Proceedings of the 15th Conference on Computer Science and Information Systems (FedCSIS 2020)},
+  pages={},
+  year={2020}
+}
+
+@InProceedings{nedelkoski2020selfsupervised,
+author="Nedelkoski, Sasho
+and Bogatinovski, Jasmin
+and Acker, Alexander
+and Cardoso, Jorge
+and Kao, Odej",
+title="Self-supervised Log Parsing",
+booktitle="Machine Learning and Knowledge Discovery in Databases: Applied Data Science Track",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="122--138",
+abstract="Logs are extensively used during the development and maintenance of software systems. They collect runtime events and allow tracking of code execution, which enables a variety of critical tasks such as troubleshooting and fault detection. However, large-scale software systems generate massive volumes of semi-structured log records, posing a major challenge for automated analysis. Parsing semi-structured records with free-form text log messages into structured templates is the first and crucial step that enables further analysis. Existing approaches rely on log-specific heuristics or manual rule extraction. These are often specialized in parsing certain log types, and thus, limit performance scores and generalization. We propose a novel parsing technique called NuLog that utilizes a self-supervised learning model and formulates the parsing task as masked language modeling (MLM). In the process of parsing, the model extracts summarizations from the logs in the form of a vector embedding. This allows the coupling of the MLM as pre-training with a downstream anomaly detection task. We evaluate the parsing performance of NuLog on 10 real-world log datasets and compare the results with 12 parsing techniques. The results show that NuLog outperforms existing methods in parsing accuracy with an average of 99{\%} and achieves the lowest edit distance to the ground truth templates. Additionally, two case studies are conducted to demonstrate the ability of the approach for log-based anomaly detection in both supervised and unsupervised scenario. The results show that NuLog can be successfully used to support troubleshooting tasks. The implementation is available at https://github.com/nulog/nulog."
+}
+
+
+@inproceedings{nedelkoski2020jointmodalities,
+    title={Multi-Source Anomaly Detection in Distributed Systems},
+    author={Jasmin Bogatinovski and Sasho Nedelkoski},
+    year={2020},
+    booktitle={Proceedings of the 18th International Conference on Service Oriented Computing (ICSOC 2020)}
+}
+
+@InProceedings{nedelkoski2019distributions,
+author="Nedelkoski, Sasho
+and Bogojeski, Mihail
+and Kao, Odej",
+title="Learning More Expressive Joint Distributions in Multimodal Variational Methods",
+booktitle="Machine Learning, Optimization, and Data Science",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="137--149",
+abstract="Data often are formed of multiple modalities, which jointly describe the observed phenomena. Modeling the joint distribution of multimodal data requires larger expressive power to capture high-level concepts and provide better data representations. However, multimodal generative models based on variational inference are limited due to the lack of flexibility of the approximate posterior, which is obtained by searching within a known parametric family of distributions. We introduce a method that improves the representational capacity of multimodal variational methods using normalizing flows. It approximates the joint posterior with a simple parametric distribution and subsequently transforms into a more complex one. Through several experiments, we demonstrate that the model improves on state-of-the-art multimodal methods based on variational inference on various computer vision tasks such as colorization, edge and mask detection, and weakly supervised learning. We also show that learning more powerful approximate joint distributions improves the quality of the generated samples. The code of our model is publicly available at https://github.com/SashoNedelkoski/BPFDMVM."
+}
+
+
+@InProceedings{nedelkoski2020data,
+author="Nedelkoski, Sasho
+and Bogatinovski, Jasmin
+and Mandapati, Ajay Kumar
+and Becker, Soeren
+and Cardoso, Jorge
+and Kao, Odej",
+title="Multi-source Distributed System Data for AI-Powered Analytics",
+booktitle="Service-Oriented and Cloud Computing",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="161--176",
+abstract="The emerging field of Artificial Intelligence for IT Operations (AIOps) utilizes monitoring data, big data platforms, and machine learning, to automate operations and maintenance (O{\&}M) tasks in complex IT systems. The available research data usually contain only a single source of information, often logs or metrics. The inability of the single-source data to describe precise state of the distributed systems leads to methods that fail to make effective use of the joint information, thus, producing large number of false predictions. Therefore, current data limits the possibilities for greater advances in AIOps research. To overcome these constraints, we created a complex distributed system testbed, which generates multi-source data composed of distributed traces, application logs, and metrics. This paper provides detailed descriptions of the infrastructure, testbed, experiments, and statistics of the generated data. Furthermore, it identifies how such data can be utilized as a stepping stone for the development of novel methods for O{\&}M tasks such as anomaly detection, root cause analysis, and remediation."
+}
+
+
+@inproceedings{nedelkoski2019anomalymultimodal,
+  title={Anomaly Detection from System Tracing Data Using Multimodal Deep Learning},
+  author={Sasho Nedelkoski and Jorge Cardoso and Odej Kao},
+  booktitle={Proceedings of the 12th IEEE International Conference on Cloud Computing (CLOUD 2020)},
+  pages={179--186},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{nedelkoski2019anomaly,
+  title={Anomaly Detection and Classification using Distributed Tracing and Deep Learning},
+  author={Sasho Nedelkoski and Jorge Cardoso and Odej Kao},
+  booktitle={Proceedings of the 19th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)},
+  pages={241--250},
+  year={2019}
+}
+
+@INPROCEEDINGS{nedelkoski2019edge,
+  author={S. {Nedelkoski} and L. {Thamsen} and I. {Verbitskiy} and O. {Kao}},
+  booktitle={2019 IEEE International Conference on Edge Computing (EDGE)}, 
+  title={Multilayer Active Learning for Efficient Learning and Resource Usage in Distributed IoT Architectures}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={8-12}}
+
+@inproceedings{nedelkoski2019hugo,
+  title={Hugo: a cluster scheduler that efficiently learns to select complementary data-parallel jobs},
+  author={Lauritz Thamsen and Ilya Verbitskiy and Sasho Nedelkoski and Vinh Thuy Tran and Vinicius Meyer and Miguel G. Xavier and Odej Kao and Cesar De Rose},
+  booktitle={Proceedings of the 25th European Conference on Parallel Processing (EUROPAR 2019)},
+  year={2019}
+}
+
+@article{nedelkoski2020mary,
+  title={Mary, Hugo, and Hugo*: Learning to schedule distributed data-parallel processing jobs on shared clusters},
+  author={Lauritz Thamsen and Jossekin Beilharz and Vinh Thuy Tran and Sasho Nedelkoski and Odej Kao},
+  journal={Concurrency and Computation: Practice and Experience},
+  pages={e5823},
+  year={2020},
+  publisher={Wiley Online Library}
+}
+
+@misc{nedelkoski2020patent,
+ title={Apparatus and method for detecting an anomaly among successive events and computer program product therefor},
+ author={Nedelkoski, Sasho and Cardoso, Jorge},
+ year={Approved by the European Patent Office, WO2020125929A1, 2020}
+ }
+ 
+@misc{nedelkoski2020patentjasmin,
+title={Distributed Trace Anomaly Detection with Self-Attention based Deep Learning
+},
+author={Bogatinovski, Jasmin and Nedelkoski, Sasho and Cardoso, Jorge},
+year={Filled in European Patent Office, 9014694.  2020}
+} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@inproceedings{zhang2015rapid,
+  title={Rapid and Robust Impact Assessment of Software Changes in Large Internet-Based Services},
+  author={Zhang, Shenglin and Liu, Ying and Pei, Dan and Chen, Yu and Qu, Xianping and Tao, Shimin and Zang, Zhi},
+  booktitle={Proceedings of the 11th ACM Conference on Emerging Networking Experiments and Technologies},
+  pages={1--13},
+  year={2015}
+}
+
+@article{chandola2009anomaly,
+  title={Anomaly Detection: A Survey},
+  author={Chandola, Varun and Banerjee, Arindam and Kumar, Vipin},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={41},
+  number={3},
+  pages={1--58},
+  year={2009}
+}
+
+@article{sultana2018survey,
+author = {Sultana, Nasrin and Chilamkurti, Naveen and Peng, Wei and Alhadad, Rabei},
+year = {2018},
+month = {01},
+pages = {1-9},
+title = {Survey on SDN Based Network Intrusion Detection System Using Machine Learning approaches},
+journal = {Peer-to-Peer Networking and Applications}
+}
+
+
+@article{grubbs1969procedures,
+  title={Procedures for Detecting Outlying Observations in Samples},
+  author={Grubbs, Frank E},
+  journal={Technometrics},
+  volume={11},
+  number={1},
+  pages={1--21},
+  year={1969},
+  publisher={Taylor \& Francis}
+}
+
+@article{hodge2004survey,
+  title={A survey of outlier detection methodologies},
+  author={Hodge, Victoria and Austin, Jim},
+  journal={Artificial intelligence review},
+  volume={22},
+  number={2},
+  pages={85--126},
+  year={2004},
+  publisher={Springer}
+}
+
+@article{pimentel2014review,
+  title={A review of novelty detection},
+  author={Pimentel, Marco AF and Clifton, David A and Clifton, Lei and Tarassenko, Lionel},
+  journal={Signal Processing},
+  volume={99},
+  pages={215--249},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@inproceedings{hamooni2016logmine,
+  title={Logmine: Fast pattern recognition for log analytics},
+  author={Hamooni, Hossein and Debnath, Biplob and Xu, Jianwu and Zhang, Hui and Jiang, Guofei and Mueen, Abdullah},
+  booktitle={Proceedings of the 25th ACM International on Conference on Information and Knowledge Management},
+  pages={1573--1582},
+  year={2016}
+}
+
+@inproceedings{he2017drain,
+    title={Drain: An online log parsing approach with fixed depth tree},
+    author={He, Pinjia and Zhu, Jieming and Zheng, Zibin and Lyu, Michael R},
+    booktitle={Proceedings of the 2017 IEEE International Conference on Web Services (ICWS)},
+    pages={33--40},
+    year={2017},
+    organization={IEEE}
+}
+
+@article{moya1993one,
+  title={One-class classifier networks for target recognition applications},
+  author={Moya, Mary M and Koch, Mark W and Hostetler, Larry D},
+  journal={NASA STI/Recon Technical Report N},
+  volume={93},
+  year={1993}
+}
+
+@inproceedings{du2019lifelong,
+  title={Lifelong Anomaly Detection Through Unlearning},
+  author={Du, Min and Chen, Zhi and Liu, Chang and Oak, Rajvardhan and Song, Dawn},
+  booktitle={Proceedings of the 2019 Conference on Computer and Communications Security (ACM SIGSAC)},
+  pages={1283--1297},
+  year={2019}
+}
+
+@inproceedings{zhu2019tools,
+  title={Tools and Benchmarks for Automated Log Parsing},
+  author={Zhu, Jieming and He, Shilin and Liu, Jinyang and He, Pinjia and Xie, Qi and Zheng, Zibin and Lyu, Michael R},
+  booktitle={2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
+  pages={121--130},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{severyn2015twitter,
+  title={Twitter sentiment analysis with deep convolutional neural networks},
+  author={Severyn, Aliaksei and Moschitti, Alessandro},
+  booktitle={Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={959--962},
+  year={2015}
+}
+
+
+@inproceedings{du2017deeplog,
+  title={DeepLog: Anomaly Detection and Diagnosis from System Logs Through Deep Learning},
+  author={Du, Min and Li, Feifei and Zheng, Guineng and Srikumar, Vivek},
+  booktitle={Proceedings of the 2017 Conference on Computer and Communications Security (ACM SIGSAC)},
+  pages={1285--1298},
+  year={2017},
+  organization={ACM}
+}
+
+@inproceedings{zhang2019robust,
+  title={Robust log-based anomaly detection on unstable log data},
+  author={Zhang, Xu and Xu, Yong and Lin, Qingwei and Qiao, Bo and Zhang, Hongyu and Dang, Yingnong and Xie, Chunyu and Yang, Xinsheng and Cheng, Qian and Li, Ze and others},
+  booktitle={Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={807--817},
+  year={2019}
+}
+
+@inproceedings{lin2016log,
+  title={Log clustering based problem identification for online service systems},
+  author={Lin, Qingwei and Zhang, Hongyu and Lou, Jian-Guang and Zhang, Yu and Chen, Xuewei},
+  booktitle={2016 IEEE/ACM 38th International Conference on Software Engineering Companion (ICSE-C)},
+  pages={102--111},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{JickTriangulation79,
+    author = {Todd D. Jick},
+    journal = {Administrative Science Quarterly},
+    pages = {602--611},
+    publisher = {[Sage Publications Inc., Cornell University]},
+    title = {Mixing Qualitative and Quantitative Methods: Triangulation in Action},
+    volume = {24},
+    year = {1979}
+}
+
+
+
+@article{key:outlierdetection,
+	author = {Kamal Malik and H. Sadawarti and Kalra G. S},
+	title = {Article: Comparative Analysis of Outlier Detection Techniques},
+	journal = {International Journal of Computer Applications},
+	year = {2014},
+	volume = {97},
+	number = {8},
+	pages = {12-21},
+	month = {July},
+	note = {Full text available}
+}
+@article{wu2014data,
+  title={Data mining with big data},
+  author={Wu, Xindong and Zhu, Xingquan and Wu, Gong-Qing and Ding, Wei},
+  journal={IEEE transactions on knowledge and data engineering},
+  volume={26},
+  number={1},
+  pages={97--107},
+  year={2014},
+  publisher={IEEE}
+}
+@INPROCEEDINGS{6785539, 
+author={D. B. Roy and R. Chaki}, 
+booktitle={2014 Applications and Innovations in Mobile Computing (AIMoC)}, 
+title={State of the art analysis of network traffic anomaly detection}, 
+year={2014}, 
+volume={}, 
+number={}, 
+pages={186-192}, 
+keywords={computer network security;telecommunication traffic;ubiquitous computing;network traffic anomaly detection;pervasive computing;network monitoring;network security;monitoring device;link flow;link capacity;node anomalous behavior;Telecommunication traffic;Monitoring;Algorithm design and analysis;Wavelet analysis;Covariance matrices;Principal component analysis;Network Traffic;Anomaly;Statistical;Machine learning;Streaming Data Analysis}, 
+ISSN={}, 
+month={Feb},}
+
+
+
+@techreport{sigelman2010dapper,
+title	= {Dapper, a Large-Scale Distributed Systems Tracing Infrastructure},
+author	= {Benjamin H. Sigelman and Luiz André Barroso and Mike Burrows and Pat Stephenson and Manoj Plakal and Donald Beaver and Saul Jaspan and Chandan Shanbhag},
+year	= {2010},
+institution	= {Google, Inc.}
+}
+
+@outlier{Outlier:1,
+author = {Gwadera, Robert and Atallah, Mikhail and Szpankowski, Wojciech},
+year = {2005},
+month = {04},
+pages = {},
+title = {Markov Models for Identification of Significant Episodes.}
+}
+
+
+@inproceedings{Aggarwal:2013:OA:2436823,
+  title={Outlier Analysis},
+  author={Aggarwal, Charu C.},
+  booktitle={Data Mining},
+  pages={237--263},
+  year={2015},
+  organization={Springer}
+}
+
+@article{aguilera2003performance,
+  title={Performance debugging for distributed systems of black boxes},
+  author={Aguilera, Marcos K and Mogul, Jeffrey C and Wiener, Janet L and Reynolds, Patrick and Muthitacharoen, Athicha},
+  journal={ACM SIGOPS Operating Systems Review},
+  volume={37},
+  number={5},
+  pages={74--89},
+  year={2003},
+  publisher={ACM}
+}
+
+@inproceedings{bahl2007towards,
+  title={Towards highly reliable enterprise network services via inference of multi-level dependencies},
+  author={Bahl, Paramvir and Chandra, Ranveer and Greenberg, Albert and Kandula, Srikanth and Maltz, David A and Zhang, Ming},
+  booktitle={ACM SIGCOMM Computer Communication Review},
+  volume={37},
+  number={4},
+  pages={13--24},
+  year={2007},
+  organization={ACM}
+}
+
+@inproceedings{reynolds2006wap5,
+  title={WAP5: black-box performance debugging for wide-area systems},
+  author={Reynolds, Patrick and Wiener, Janet L and Mogul, Jeffrey C and Aguilera, Marcos K and Vahdat, Amin},
+  booktitle={Proceedings of the 15th international conference on World Wide Web},
+  pages={347--356},
+  year={2006},
+  organization={ACM}
+}
+
+@Inproceedings{barham2003magpie,
+author = {Barham, Paul and Isaacs, Rebecca and Narayanan, Dushyanth},
+title = {Magpie: online modelling and performance-aware systems},
+booktitle = {9th Workshop on Hot Topics in Operating Systems (HotOS-IX)},
+year = {2003},
+abstract = {Understanding the performance of distributed systems requires correlation of thousands of interactions between numerous components—a task best left to a computer. Today’s systems provide voluminous traces from each component but do not synthesise the data into concise models of system performance. We argue that online performance modelling should be a ubiquitous operating system service and outline several uses including performance debugging, capacity planning, system tuning and anomaly detection. We describe the Magpie modelling service which collates detailed traces from multiple machines in an e-commerce site, extracts request-specific audit trails, and constructs probabilistic models of request behaviour. A feasibility study evaluates the approach using an offline demonstrator. Results show that the approach is promising, but that there are many challenges to building a truly ubiquitious, online modelling infrastructure.},
+publisher = {USENIX},
+url = {https://www.microsoft.com/en-us/research/publication/magpie-online-modelling-and-performance-aware-systems/},
+pages = {85-90},
+edition = {9th Workshop on Hot Topics in Operating Systems (HotOS-IX)},
+}
+@inproceedings{Fonseca:2007:XPN:1973430.1973450,
+  title={X-trace: A pervasive network tracing framework},
+  author={Fonseca, Rodrigo and Porter, George and Katz, Randy H and Shenker, Scott and Stoica, Ion},
+  booktitle={Proceedings of the 4th USENIX conference on Networked systems design \& implementation},
+  pages={20--20},
+  year={2007},
+  organization={USENIX Association}
+}
+
+
+@inproceedings{gschwind2002webmon,
+  title={Webmon: A performance profiler for web transactions},
+  author={Gschwind, Thomas and Eshghi, Kave and Garg, Pankaj K and Wurster, Klaus},
+  booktitle={Advanced Issues of E-Commerce and Web-Based Information Systems, 2002.(WECWIS 2002). Proceedings. Fourth IEEE International Workshop on},
+  pages={171--176},
+  year={2002},
+  organization={IEEE}
+}
+
+@misc{openstack, title={openstack/osprofiler}, url={https://github.com/openstack/osprofiler}, journal={GitHub}, author={Openstack}}
+
+@misc{ranomaly, title={Twitter Anomaly in R}, url={https://anomaly.io/anomaly-detection-twitter-r/}, journal={anomaly.io}}
+
+@book{Goodfellow-et-al-2016,
+    title={Deep Learning},
+    author={Ian Goodfellow and Yoshua Bengio and Aaron Courville},
+    publisher={MIT Press},
+    note={\url{http://www.deeplearningbook.org}},
+    year={2016}
+}
+
+
+@article{rumelhart1986learning,
+  title={Learning Representations by Back-Propagating Errors},
+  author={Rumelhart, David E. and Hinton, Geoffrey E. and Williams, Ronald J.},
+  journal={Nature},
+  volume={323},
+  number={6088},
+  pages={533},
+  year={1986},
+  publisher={Nature Publishing Group}
+}
+
+@inproceedings{pascanu2013difficulty,
+  title={On the difficulty of training recurrent neural networks},
+  author={Pascanu, Razvan and Mikolov, Tomas and Bengio, Yoshua},
+  booktitle={International Conference on Machine Learning},
+  pages={1310--1318},
+  year={2013}
+}
+
+@article{hochreiter1997long,
+  title={Long Short-Term Memory},
+  author={Hochreiter, Sepp and Schmidhuber, J{\"u}rgen},
+  journal={Neural Computation},
+  volume={9},
+  number={8},
+  pages={1735--1780},
+  year={1997},
+  publisher={MIT Press}
+}
+
+@inproceedings{cho2014properties,
+  title={On the Properties of Neural Machine Translation: Encoder-Decoder Approaches},
+  author={Cho, Kyunghyun and Van Merri{\"e}nboer, Bart and Bahdanau, Dzmitry and Bengio, Yoshua},
+  journal={Proceedings of the 8th Workshop on Syntax, Semantics and Structure in Statistical Translation (SSST-8)},
+  year={2014}
+}
+@article{lecun1995convolutional,
+  title={Convolutional Networks for Images, Speech, and Time Series},
+  author={LeCun, Yann and Bengio, Yoshua and others},
+  journal={The Handbook of Brain Theory and Neural Networks},
+  volume={3361},
+  number={10},
+  pages={1995},
+  year={1995}
+}
+
+
+@inproceedings{kingma2013auto,
+  author    = {Diederik P. Kingma and
+               Max Welling},
+  title     = {Auto-Encoding Variational Bayes},
+  booktitle ={International Conference on Learning Representations (ICLR)},
+  year={2014}
+}
+
+
+@article{kanungo2002efficient,
+  title={An Efficient K-Means Clustering Algorithm: Analysis and Implementation},
+  author={Kanungo, Tapas and Mount, David M and Netanyahu, Nathan S and Piatko, Christine D and Silverman, Ruth and Wu, Angela Y},
+  journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  number={7},
+  pages={881--892},
+  year={2002},
+  publisher={IEEE}
+}
+
+@article{reynolds2015gaussian,
+  title={Gaussian mixture models},
+  author={Reynolds, Douglas},
+  journal={Encyclopedia of biometrics},
+  pages={827--832},
+  year={2015},
+  publisher={Springer}
+}
+
+@inproceedings{liu2008isolation,
+ author = {Liu, Fei Tony and Ting, Kai Ming and Zhou, Zhi-Hua},
+ title = {Isolation Forest},
+ booktitle = {Proceedings of the 8th IEEE International Conference on Data Mining (ICDM)},
+ series = {ICDM '08},
+ year = {2008},
+ pages = {413--422},
+ numpages = {10},
+ publisher = {IEEE Computer Society},
+ keywords = {anomaly detection, outlier detection, novelty detection, isolation forest, binary trees, model based},
+} 
+
+
+@misc{tensorflow, title={tensorflow/serving}, url={https://github.com/tensorflow/serving}, 
+journal={GitHub}, author={Tensorflow}}
+
+@article{DBLP:journals/corr/abs-1802-04647,
+  author    = {Niketan Pansare and
+               Michael Dusenberry and
+               Nakul Jindal and
+               Matthias Boehm and
+               Berthold Reinwald and
+               Prithviraj Sen},
+  title     = {Deep Learning with Apache SystemML},
+  journal   = {CoRR},
+  volume    = {abs/1802.04647},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1802.04647},
+  archivePrefix = {arXiv},
+  eprint    = {1802.04647},
+  timestamp = {Mon, 13 Aug 2018 16:47:44 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1802-04647},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Du2017ATOMET,
+  title={ATOM: Efficient Tracking, Monitoring, and Orchestration of Cloud Resources},
+  author={Min Du and Feifei Li},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  year={2017},
+  volume={28},
+  pages={2172-2189}
+}
+
+@inproceedings{lou2010mining,
+author = {Fu, Qiang and YANG, Shengqi and XU, Ye and Li, Jiang and Lou, Jian-Guang},
+title = {Mining Invariants from Console Logs for System Problem Detection},
+booktitle = {Annual Technical Conference},
+year = {2010},
+abstract = {
+Detecting execution anomalies is very important to the maintenance and monitoring of large-scale distributed systems. People often use console logs that are produced by distributed systems for troubleshooting and problem diagnosis. However, manually inspecting con-sole logs for the detection of anomalies is unfeasible due to the increasing scale and complexity of distributed systems. Therefore, there is a great demand for automatic anomaly detection techniques based on log analysis. In this paper, we propose an unstructured log analysis technique for anomaly detection. In the technique, we propose a novel algorithm to automatically discover program invariants in logs. At first, we covert the unstructured logs to structured logs through a log parsing step. Then, we group the log messages according to the relationship among log parameters. After that, we learn the program invariants from the log message groups. The mined invariants can reveal the inherent linear characteristics of program work flows. With these learned invariants, we can automatically detect anomalies in logs. Experiments on Hadoop show that the technique can effectively detect execution anomalies. Compared with the state of art approaches, our approach can not only detect numerous real problems with high accuracy but also provide intuitive insight to the problems.
+},
+publisher = {USENIX}}
+
+@inproceedings{xu2009detecting,
+  title={Detecting Large-Scale System Problems by Mining Console Logs},
+  author={Xu, Wei and Huang, Ling and Fox, Armando and Patterson, David and Jordan, Michael I},
+  booktitle={Proceedings of the ACM SIGOPS 22nd Symposium on Operating Systems Principles},
+  pages={117--132},
+  year={2009},
+  organization={ACM}
+}
+
+@inproceedings{yu2016cloudseer,
+  title={Cloudseer: Workflow monitoring of cloud infrastructures via interleaved logs},
+  author={Yu, Xiao and Joshi, Pallavi and Xu, Jianwu and Jin, Guoliang and Zhang, Hui and Jiang, Guofei},
+  booktitle={ACM SIGPLAN Notices},
+  volume={51},
+  number={4},
+  pages={489--502},
+  year={2016},
+  organization={ACM}
+}
+
+@article{bengio2003neural,
+  title={A neural probabilistic language model},
+  author={Bengio, Yoshua and Ducharme, R{\'e}jean and Vincent, Pascal and Jauvin, Christian},
+  journal={Journal of machine learning research},
+  volume={3},
+  number={Feb},
+  pages={1137--1155},
+  year={2003}
+}
+
+@inproceedings{mikolov2010recurrent,
+  title={Recurrent neural network based language model},
+  author={Mikolov, Tom{\'a}{\v{s}} and Karafi{\'a}t, Martin and Burget, Luk{\'a}{\v{s}} and {\v{C}}ernock{\`y}, Jan and Khudanpur, Sanjeev},
+  booktitle={Eleventh Annual Conference of the International Speech Communication Association},
+  year={2010}
+}
+
+@Article{Breiman2001,
+author="Breiman, Leo",
+title="Random Forests",
+journal="Machine Learning",
+year="2001",
+day="01",
+volume="45",
+number="1",
+pages="5--32",
+abstract="Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. The generalization error for forests converges a.s. to a limit as the number of trees in the forest becomes large. The generalization error of a forest of tree classifiers depends on the strength of the individual trees in the forest and the correlation between them. Using a random selection of features to split each node yields error rates that compare favorably to Adaboost (Y. Freund {\&} R. Schapire, Machine Learning: Proceedings of the Thirteenth International conference, ***, 148--156), but are more robust with respect to noise. Internal estimates monitor error, strength, and correlation and these are used to show the response to increasing the number of features used in the splitting. Internal estimates are also used to measure variable importance. These ideas are also applicable to regression."
+}
+
+
+
+@inproceedings{fichtenberger2013bico,
+  title={BICO: BIRCH Meets Coresets for K-Means Clustering},
+  author={Fichtenberger, Hendrik and Gill{\'e}, Marc and Schmidt, Melanie and Schwiegelshohn, Chris and Sohler, Christian},
+  booktitle={European Symposium on Algorithms},
+  pages={481--492},
+  year={2013},
+  organization={Springer}
+}
+
+
+@misc{netflix, title={Netflix/Surus}, howpublished={\url{https://github.com/Netflix/Surus}}, journal={GitHub}, author={Netflix}}
+
+@article{vrushali2016anomaly,
+  title={Anomaly-Based IDS Using Backpropagation Neural Network},
+  author={Vrushali, D and Pawar, SN},
+  journal={International Journal of Computer Applications},
+  volume={136},
+  number={10},
+  pages={29--34},
+  year={2016}
+}
+
+@inproceedings{vallis2014novel,
+ author = {Vallis, Owen and Hochenbaum, Jordan and Kejariwal, Arun},
+ title = {A Novel Technique for Long-term Anomaly Detection in the Cloud},
+ booktitle = {Proceedings of the 6th USENIX Conference on Hot Topics in Cloud Computing},
+ series = {HotCloud'14},
+ year = {2014},
+ pages = {15--15},
+ numpages = {1},
+ publisher = {USENIX Association},
+} 
+
+@inproceedings{malhotra2015long,
+  title={Long Short Term Memory Networks for Anomaly Detection in Time Series},
+  author={Pankaj Malhotra and Lovekesh Vig and Gautam Shroff and Puneet Agarwal},
+  booktitle={Proceedings of the 2015 European Symposium on Artificial Neural Networks (ESANN)},
+  year={2015}
+}
+
+@inproceedings{nanduri2016anomaly,
+  title={Anomaly detection in aircraft data using Recurrent Neural Networks (RNN)},
+  author={Nanduri, Anvardh and Sherry, Lance},
+  booktitle={Integrated Communications Navigation and Surveillance (ICNS), 2016},
+  pages={5C2--1},
+  year={2016},
+  organization={IEEE}
+}
+@phdthesis{izakian2014cluster,
+  title={Cluster-Centric Anomaly Detection and Characterization in Spatial Time Series},
+  author={Izakian, Hesam},
+  year={2014},
+  school={University of Alberta}
+}
+@inproceedings{zhu2017deep,
+  title={Deep and Confident Prediction for Time Series at Uber},
+  author={Zhu, Lingxue and Laptev, Nikolay},
+  booktitle={Data Mining Workshops (ICDMW), 2017 IEEE International Conference on},
+  pages={103--110},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{34d143d2a2b3492f9fe0da520c5ac1bf,
+title = "Detecting anomalies in time series data via a deep learning algorithm combining wavelets, neural networks and Hilbert transform",
+abstract = "The quest for more efficient real-time detection of anomalies in time series data is critically important in numerous applications and systems ranging from intelligent transportation, structural health monitoring, heart disease, and earthquake prediction. Although the range of application is wide, anomaly detection algorithms are usually domain specific and build on experts’ knowledge. Here a new signal processing algorithm –inspired by the deep learning paradigm – is presented that combines wavelets, neural networks, and Hilbert transform performs robustly and is transferable. The proposed neural network structure facilitates learning short and long-term pattern interdependencies; a task usually hard to accomplish using standard neural network training algorithms. The paper provides guidelines for selecting the neural network's buffer size, training algorithm, and anomaly detection features. The algorithm learns online the system’s normal behavior and does not require the existence of anomalous data, for assessing its statistical significance. This is essential for applications that require customization. The anomalies are detected by analyzing hierarchically the instantaneous frequency and amplitude of the residual signal. Its applicability is demonstrated through detection of anomalies in the Seismic Electric Signal activity, that is potentially important for earthquake prediction; and automated detection of road anomalies (e.g. potholes, bumps, etc.) using smartphone sensors. The evaluation of the anomaly detection algorithm is based on the statistical significance of the Receiver Operating Characteristic curve. Finally, we propose strategies for decision-making that may increase the efficiency of the application of the algorithm, and expedite evaluation of real-time data.",
+keywords = "Anomaly detection, Deep learning, Receiver operating characteristics",
+author = "Stratis Kanarachos and Stavros Christopoulos and Alexander Chroneos and Michael Fitzpatrick",
+note = "There is a 12 month embargo period.",
+year = "2017",
+month = "11",
+volume = "85",
+pages = "292--304",
+journal = "Expert Systems with Applications",
+issn = "0957-4174",
+publisher = "Elsevier",
+}
+
+@inproceedings{hermans2013training,
+  title={Training and analysing deep recurrent neural networks},
+  author={Hermans, Michiel and Schrauwen, Benjamin},
+  booktitle={Advances in neural information processing systems},
+  pages={190--198},
+  year={2013}
+}
+
+@book{george2008brain,
+  title={How the brain might work: A hierarchical and temporal model for learning and recognition},
+  author={George, Dileep},
+  year={2008},
+  publisher={Stanford University Stanford}
+}
+
+@article{ahmad2017unsupervised,
+  title={Unsupervised real-time anomaly detection for streaming data},
+  author={Ahmad, Subutai and Lavin, Alexander and Purdy, Scott and Agha, Zuha},
+  journal={Neurocomputing},
+  volume={262},
+  pages={134--147},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{hayton2007static,
+  title={Static and dynamic novelty detection methods for jet engine health monitoring},
+  author={Hayton, Paul and Utete, Simukai and King, Dennis and King, Steve and Anuzis, Paul and Tarassenko, Lionel},
+  journal={Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences},
+  volume={365},
+  number={1851},
+  pages={493--514},
+  year={2007},
+  publisher={The Royal Society}
+}
+
+
+
+@inproceedings{du2016spell,
+  title={Spell: Streaming Parsing of System Event Logs},
+  author={Du, Min and Li, Feifei},
+  booktitle={In the Proceedings of the 16th International Conference on Data Mining (ICDM)},
+  pages={859--864},
+  year={2016},
+  organization={IEEE}
+}
+
+
+@inproceedings{he2016evaluation,
+  title={An Evaluation Study on Log Parsing and its Use in Log Mining},
+  author={He, Pinjia and Zhu, Jieming and He, Shilin and Li, Jian and Lyu, Michael R},
+  booktitle={Proceedings of the 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)},
+  pages={654--661},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{He2016ExperienceRS,
+  title={Experience Report: System Log Analysis for Anomaly Detection},
+  author={Shilin He and Jieming Zhu and Pinjia He and Michael R. Lyu},
+  journal={2016 IEEE 27th International Symposium on Software Reliability Engineering (ISSRE)},
+  year={2016},
+  pages={207-218}
+}
+
+@inproceedings{DBLP:conf/bigdataconf/ZhangXMJPZ16,
+  author    = {Ke Zhang and
+               Jianwu Xu and
+               Martin Renqiang Min and
+               Guofei Jiang and
+               Konstantinos Pelechrinis and
+               Hui Zhang},
+  title     = {Automated {IT} system failure prediction: {A} deep learning approach},
+  booktitle = {2016 {IEEE} International Conference on Big Data, BigData 2016, Washington DC, USA, December 5-8, 2016},
+  pages     = {1291--1300},
+  year      = {2016},
+  url       = {https://doi.org/10.1109/BigData.2016.7840733},
+  timestamp = {Thu, 20 Jul 2017 12:20:57 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/bigdataconf/ZhangXMJPZ16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@book{chollet2015keras,
+  title={Deep learning with Keras},
+  author={Gulli, Antonio and Pal, Sujit},
+  year={2017},
+  publisher={Packt Publishing Ltd}
+}
+
+@misc{tensorflow2015-whitepaper,
+title={ {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+url={https://www.tensorflow.org/},
+note={Software available from tensorflow.org},
+author={
+    Mart\'{\i}n~Abadi and
+    Ashish~Agarwal and
+    Paul~Barham and
+    Eugene~Brevdo and
+    Zhifeng~Chen and
+    Craig~Citro and
+    Greg~S.~Corrado and
+    Andy~Davis and
+    Jeffrey~Dean and
+    Matthieu~Devin and
+    Sanjay~Ghemawat and
+    Ian~Goodfellow and
+    Andrew~Harp and
+    Geoffrey~Irving and
+    Michael~Isard and
+    Yangqing Jia and
+    Rafal~Jozefowicz and
+    Lukasz~Kaiser and
+    Manjunath~Kudlur and
+    Josh~Levenberg and
+    Dandelion~Man\'{e} and
+    Rajat~Monga and
+    Sherry~Moore and
+    Derek~Murray and
+    Chris~Olah and
+    Mike~Schuster and
+    Jonathon~Shlens and
+    Benoit~Steiner and
+    Ilya~Sutskever and
+    Kunal~Talwar and
+    Paul~Tucker and
+    Vincent~Vanhoucke and
+    Vijay~Vasudevan and
+    Fernanda~Vi\'{e}gas and
+    Oriol~Vinyals and
+    Pete~Warden and
+    Martin~Wattenberg and
+    Martin~Wicke and
+    Yuan~Yu and
+    Xiaoqiang~Zheng},
+  year={2015},
+}
+
+
+
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+
+@article{mckinneypandas,
+  title={pandas: a Foundational Python Library for Data Analysis and Statistics},
+  author={McKinney, Wes}
+}
+
+@book{ShrivastwaOpenstack,
+ author = {Shrivastwa, Alok and Sarat, Sunil and Jackson, Kevin and Bunch, Cody and Sigler, Egle and Campbell, Tony},
+ title = {OpenStack: Building a Cloud Environment},
+ year = {2016},
+ isbn = {1787123189, 9781787123182},
+ publisher = {Packt Publishing},
+} 
+
+
+@misc{openzipkin, title={openzipkin/zipkin}, 
+url={https://github.com/openzipkin/zipkin}, journal={GitHub}, 
+year = {2018}, publisher = {GitHub},
+author={OpenZipkin}}
+
+
+@article{liu2016anomaly,
+  title={An Anomaly Detection Algorithm of Cloud Platform Based on Self-Organizing Maps},
+  author={Liu, Jun and Chen, Shuyu and Zhou, Zhen and Wu, Tianshu},
+  journal={Mathematical Problems in Engineering},
+  year={2016},
+  publisher={Hindawi}
+}
+
+@inproceedings{dean2012ubl,
+  title={Ubl: Unsupervised behavior learning for predicting performance anomalies in virtualized cloud systems},
+  author={Dean, Daniel Joseph and Nguyen, Hiep and Gu, Xiaohui},
+  booktitle={Proceedings of the 9th international conference on Autonomic computing},
+  pages={191--200},
+  year={2012},
+  organization={ACM}
+}
+
+@INPROCEEDINGS{7830676, 
+author={A. Bhattacharyya and S. A. J. Jandaghi and S. Sotiriadis and C. Amza}, 
+booktitle={2016 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)}, 
+title={Semantic Aware Online Detection of Resource Anomalies on the Cloud}, 
+year={2016}, 
+volume={}, 
+number={}, 
+pages={134-143}, 
+keywords={cloud computing;learning (artificial intelligence);neural nets;pattern recognition;semantic aware online detection;resource anomaly detection;cloud computing;hardware resource management;cloud environment;application performance degradation;quality of service;neural network learning;pattern recognition;machine learning technique;feedback directed scheme;Monitoring;Context;Cloud computing;Semantics;Throughput;Pattern recognition;Delays}, 
+ISSN={2330-2186}, 
+month={Dec},}
+
+
+@inproceedings{sauvanaud2016anomaly,
+  title={Anomaly detection and root cause localization in virtual network functions},
+  author={Sauvanaud, Carla and Lazri, Kahina and Ka{\^a}niche, Mohamed and Kanoun, Karama},
+  booktitle={Software Reliability Engineering (ISSRE), 2016 IEEE 27th International Symposium on},
+  pages={196--206},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{ahmed2016survey,
+  title={A survey of network anomaly detection techniques},
+  author={Ahmed, Mohiuddin and Mahmood, Abdun Naser and Hu, Jiankun},
+  journal={Journal of Network and Computer Applications},
+  volume={60},
+  pages={19--31},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@inproceedings{chung2015recurrent,
+  title={A Recurrent Latent Variable Model for Sequential Data},
+  author={Chung, Junyoung and Kastner, Kyle and Dinh, Laurent and Goel, Kratarth and Courville, Aaron C and Bengio, Yoshua},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={2980--2988},
+  year={2015}
+}
+
+@inproceedings{kaldor2017canopy,
+  title={Canopy: an end-to-end performance tracing and analysis system},
+  author={Kaldor, Jonathan and Mace, Jonathan and Bejda, Micha{\l} and Gao, Edison and Kuropatwa, Wiktor and O'Neill, Joe and Ong, Kian Win and Schaller, Bill and Shan, Pingjia and Viscomi, Brendan and others},
+  booktitle={Proceedings of the 26th Symposium on Operating Systems Principles},
+  pages={34--50},
+  year={2017},
+  organization={ACM}
+}
+
+@article{sambasivan2014so,
+  title={So, you want to trace your distributed system? Key design insights from years of practical experience},
+  author={Sambasivan, Raja R and Fonseca, Rodrigo and Shafer, Ilari and Ganger, Gregory R}
+}
+
+@article{joshi2001mining,
+  title={Mining Needle in a Haystack: Classifying Rare Classes via Two-Phase Rule Induction},
+  author={Joshi,\ Mahesh V and Agarwal, Ramesh C and Kumar, Vipin},
+  journal={ACM SIGMOD Record},
+  volume={30},
+  number={2},
+  pages={91--102},
+  year={2001},
+  publisher={ACM}
+}
+
+@inproceedings{joshi2002predicting,
+  title={Predicting Rare Classes: Can Boosting Make Any Weak Learner Strong?},
+  author={Joshi, Mahesh V and Agarwal, Ramesh C and Kumar, Vipin},
+  booktitle={Proceedings of the 8th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages={297--306},
+  year={2002},
+  organization={ACM}
+}
+
+@article{chawla2004special,
+  title={Special Issue on Learning from Imbalanced Data Sets},
+  author={Chawla, Nitesh V and Japkowicz, Nathalie and Kotcz, Aleksander},
+  journal={ACM SIGKDD Explorations Newsletter},
+  volume={6},
+  number={1},
+  pages={1--6},
+  year={2004},
+  publisher={ACM}
+}
+
+@article{phua2004minority,
+  title={Minority report in fraud detection: classification of skewed data},
+  author={Phua, Clifton and Alahakoon, Damminda and Lee, Vincent},
+  journal={Acm sigkdd explorations newsletter},
+  volume={6},
+  number={1},
+  pages={50--59},
+  year={2004},
+  publisher={ACM}
+}
+
+@inproceedings{Vilalta:2002:PRE:844380.844743,
+ author = {Vilalta, Ricardo and Ma, Sheng},
+ title = {Predicting Rare Events In Temporal Domains},
+ booktitle = {Proceedings of the 2002 IEEE International Conference on Data Mining},
+ series = {ICDM '02},
+ year = {2002},
+ isbn = {0-7695-1754-4},
+ pages = {474--},
+ url = {http://dl.acm.org/citation.cfm?id=844380.844743},
+ acmid = {844743},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+} 
+
+@article{manevitz2001one,
+  title={One-Class SVMs for Document Classification},
+  author={Manevitz, Larry M and Yousef, Malik},
+  journal={Journal of Machine Learning Research},
+  volume={2},
+  number={Dec},
+  pages={139--154},
+  year={2001}
+}
+
+@inproceedings{kohonen1997exploration,
+  title={Exploration of very large databases by self-organizing maps},
+  author={Kohonen, Teuvo},
+  booktitle={Proceedings of International Conference on Neural Networks (ICNN'97)},
+  volume={1},
+  pages={PL1--PL6},
+  year={1997},
+  organization={IEEE}
+}
+
+@INPROCEEDINGS{8457902,
+author = {A. Gulenko and F. Schmidt and A. Acker and M. Wallschlager and O. Kao and F. Liu},
+booktitle = {2018 IEEE 11th International Conference on Cloud Computing (CLOUD)},
+title = {Detecting Anomalous Behavior of Black-Box Services Modeled with Distance-Based Online Clustering},
+year = {2018},
+number = {},
+pages = {912-915},
+keywords={Anomaly detection;Cloud computing;Measurement;Monitoring;Data collection;Virtual machine monitors;Data models},
+ISSN = {2159-6190},
+month={Jul}
+}
+
+@inproceedings{Hundman:2018:DSA:3219819.3219845,
+ author = {Hundman, Kyle and Constantinou, Valentino and Laporte, Christopher and Colwell, Ian and Soderstrom, Tom},
+ title = {Detecting Spacecraft Anomalies Using LSTMs and Nonparametric Dynamic Thresholding},
+ booktitle = {Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery; Data Mining},
+ series = {KDD '18},
+ year = {2018},
+ pages = {387--395},
+ numpages = {9},
+ publisher = {ACM},
+ keywords = {aerospace, anomaly detection, forecasting, lstms, neural networks, rnns, time-series},
+} 
+
+
+@ARTICLE{1163506, 
+author={Albert Nuttall}, 
+journal={IEEE Transactions on Acoustics, Speech, and Signal Processing}, 
+title={Some Windows with Very Good Sidelobe Behavior}, 
+year={1981}, 
+volume={29}, 
+number={1}, 
+pages={84-91}, 
+keywords={Frequency;Discrete Fourier transforms;Helium;Spectral analysis;Fourier transforms;Convolution;Government;Protection;Silicon compounds}}
+
+@article{bezerra2013algorithms,
+  title={Algorithms for anomaly detection of traces in logs of process aware information systems},
+  author={Bezerra, F{\'a}bio and Wainer, Jacques},
+  journal={Information Systems},
+  volume={38},
+  number={1},
+  pages={33--44},
+  year={2013},
+  publisher={Elsevier}
+}
+
+
+@inproceedings{brown2018recurrent,
+ author = {Brown, Andy and Tuor, Aaron and Hutchinson, Brian and Nichols, Nicole},
+ title = {Recurrent Neural Network Attention Mechanisms for Interpretable System Log Anomaly Detection},
+ booktitle = {Proceedings of the First Workshop on Machine Learning for Computing Systems},
+ series = {MLCS'18},
+ year = {2018},
+ isbn = {978-1-4503-5865-1},
+ location = {Tempe, AZ, USA},
+ pages = {1:1--1:8},
+ articleno = {1},
+ numpages = {8},
+ acmid = {3217872},
+ publisher = {ACM},
+ keywords = {Anomaly detection, Attention, Interpretable Machine Learning, Online Training, Recurrent Neural Networks, System Log Analysis},
+}
+
+@article{zhao2017convolutional,
+  title={Convolutional Neural Networks for Time Series Classification},
+  author={Zhao, Bendong and Lu, Huanzhang and Chen, Shangfeng and Liu, Junliang and Wu, Dongya},
+  journal={Journal of Systems Engineering and Electronics},
+  volume={28},
+  number={1},
+  pages={162--169},
+  year={2017},
+  publisher={BIAI}
+}
+
+@article{fawaz2018deep,
+  title={Deep learning for time series classification: a review},
+  author={Fawaz, Hassan Ismail and Forestier, Germain and Weber, Jonathan and Idoumghar, Lhassane and Muller, Pierre-Alain},
+  journal={arXiv preprint arXiv:1809.04356},
+  year={2018}
+}
+
+@inproceedings{ioffe2015batch,
+ author = {Ioffe, Sergey and Szegedy, Christian},
+ title = {Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift},
+ booktitle = {Proceedings of the 32Nd International Conference on International Conference on Machine Learning - Volume 37},
+ series = {ICML'15},
+ year = {2015},
+ pages = {448--456},
+ numpages = {9},
+ acmid = {3045167}
+} 
+
+@inproceedings{lu2018cloudraid,
+  title={CloudRaid: hunting concurrency bugs in the cloud via log-mining},
+  author={Lu, Jie and Li, Feng and Li, Lian and Feng, Xiaobing},
+  booktitle={Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={3--14},
+  year={2018},
+  organization={ACM}
+}
+
+@article{Pascanu2015MalwareCW,
+  title={Malware classification with recurrent networks},
+  author={Razvan Pascanu and Jack W. Stokes and Hermineh Sanossian and Mady Marinescu and Anil Thomas},
+  journal={2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2015},
+  pages={1916-1920}
+}
+@inproceedings{taylor2016anomaly,
+  title={Anomaly detection in automobile control network data with long short-term memory networks},
+  author={Taylor, Adrian and Leblanc, Sylvain and Japkowicz, Nathalie},
+  booktitle={2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA)},
+  pages={130--139},
+  year={2016}
+}
+
+@inproceedings{sutskever2014sequence,
+  title={Sequence to sequence learning with neural networks},
+  author={Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V},
+  booktitle={Advances in neural information processing systems},
+  pages={3104--3112},
+  year={2014}
+}
+
+@article{wu2016google,
+  title={Google’s multilingual neural machine translation system: Enabling zero-shot translation},
+  author={Johnson, Melvin and Schuster, Mike and Le, Quoc V and Krikun, Maxim and Wu, Yonghui and Chen, Zhifeng and Thorat, Nikhil and Vi{\'e}gas, Fernanda and Wattenberg, Martin and Corrado, Greg and others},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={5},
+  pages={339--351},
+  year={2017},
+  publisher={MIT Press}
+}
+
+@inproceedings{venugopalan2015sequence,
+  title={Sequence to sequence-video to text},
+  author={Venugopalan, Subhashini and Rohrbach, Marcus and Donahue, Jeffrey and Mooney, Raymond and Darrell, Trevor and Saenko, Kate},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={4534--4542},
+  year={2015}
+}
+
+@inproceedings{sundermeyer2012lstm,
+  title={LSTM neural networks for language modeling},
+  author={Sundermeyer, Martin and Schl{\"u}ter, Ralf and Ney, Hermann},
+  booktitle={Thirteenth annual conference of the international speech communication association},
+  year={2012}
+}
+
+@inproceedings{bontemps2016collective,
+  title={Collective anomaly detection based on long short-term memory recurrent neural networks},
+  author={Bontemps, Lo{\"\i}c and McDermott, James and Le-Khac, Nhien-An and others},
+  booktitle={International Conference on Future Data and Security Engineering},
+  pages={141--152},
+  year={2016},
+  organization={Springer}
+}
+
+@inproceedings{yang2016hierarchical,
+  title={Hierarchical attention networks for document classification},
+  author={Yang, Zichao and Yang, Diyi and Dyer, Chris and He, Xiaodong and Smola, Alex and Hovy, Eduard},
+  booktitle={Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  pages={1480--1489},
+  year={2016}
+}
+
+@inproceedings{graves2013speech,
+  title={Speech recognition with deep recurrent neural networks},
+  author={Graves, Alex and Mohamed, Abdel-rahman and Hinton, Geoffrey},
+  booktitle={2013 IEEE International Conference on Acoustics, speech and signal processing (ICASSP)},
+  pages={6645--6649},
+  year={2013}
+}
+
+@article{ricci2014introducing,
+  title={Introducing CloudLab: Scientific infrastructure for advancing cloud architectures and applications},
+  author={Ricci, Robert and Eide, Eric and Team, CloudLab},
+  journal={The magazine of USENIX \& SAGE},
+  volume={39},
+  number={6},
+  pages={36--38},
+  year={2014},
+  publisher={USENIX Association}
+}
+
+
+@inproceedings{ngiam2011multimodal,
+  title={Multimodal deep learning},
+  author={Ngiam, Jiquan and Khosla, Aditya and Kim, Mingyu and Nam, Juhan and Lee, Honglak and Ng, Andrew Y},
+  booktitle={Proceedings of the 28th International Conference on Machine Learning (ICML-11)},
+  pages={689--696},
+  year={2011}
+}
+
+@article{park2018multimodal,
+  title={A Multimodal Anomaly Detector for Robot-Assisted Feeding Using an LSTM-Based Variational Autoencoder},
+  author={Park, Daehyung and Hoshi, Yuuna and Kemp, Charles C},
+  journal={IEEE Robotics and Automation Letters},
+  volume={3},
+  number={3},
+  pages={1544--1551},
+  year={2018},
+  publisher={IEEE}
+}
+
+@inproceedings{srivastava2012multimodal,
+  title={Multimodal learning with deep boltzmann machines},
+  author={Srivastava, Nitish and Salakhutdinov, Ruslan R},
+  booktitle={Advances in neural information processing systems},
+  pages={2222--2230},
+  year={2012}
+}
+
+@article{nasrabadi2007pattern,
+  title={Pattern recognition and machine learning},
+  author={Nasrabadi, Nasser M},
+  journal={Journal of electronic imaging},
+  volume={16},
+  number={4},
+  pages={049901},
+  year={2007},
+  publisher={International Society for Optics and Photonics}
+}
+@book{beyer2016site,
+  title={Site Reliability Engineering: How Google Runs Production Systems},
+  author={Beyer, Betsy and Jones, Chris and Petoff, Jennifer and Murphy, Niall Richard},
+  year={2016},
+  publisher={" O'Reilly Media, Inc."}
+}
+
+@INPROCEEDINGS{8605760, 
+author={F. {Schmidt} and F. {Suri-Payer} and A. {Gulenko} and M. {Wallschläger} and A. {Acker} and O. {Kao}}, 
+booktitle={2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)}, 
+title={Unsupervised Anomaly Event Detection for Cloud Monitoring Using Online Arima}, 
+year={2018}, 
+volume={}, 
+number={}, 
+pages={71-76}, 
+keywords={cloud computing;security of data;virtualisation;virtualized services;IP multimedia subsystem;telecommunication system providers;fragile computation stack;zero touch administration;unsupervised detection approach;real-time monitoring data;replicated Openstack cloud environment;anomaly detection;unsupervised anomaly event detection;cloud monitoring;virtualization;digital resources;online Arima forecasting algorithm;degraded state anomalies detection;Data models;Cloud computing;Anomaly detection;Monitoring;Virtual machining;Predictive models;Prediction algorithms;anomaly detection;service reliability;NFV}, 
+ISSN={}, 
+month={Dec},}
+
+
+@INPROCEEDINGS{6008688, 
+author={D. {Battre} and N. {Frejnik} and S. {Goel} and O. {Kao} and D. {Warneke}}, 
+booktitle={2011 IEEE 4th International Conference on Cloud Computing}, 
+title={Evaluation of Network Topology Inference in Opaque Compute Clouds through End-to-End Measurements}, 
+year={2011}, 
+volume={}, 
+number={}, 
+pages={17-24}, 
+keywords={cloud computing;virtual machines;virtualisation;network topology inference;opaque compute cloud;end-to-end measurement;infrastructure-as-a-service;resource provisioning;hardware virtualization;cloud customer;data-intensive distributed application;virtual machines;KVM hypervisor;XEN hypervisor;paravirtualized environments;Delay;Network topology;Topology;Probes;Unicast;Receivers;Routing;cloud computing;network topology inference;network tomography;virtualization},
+ISSN={2159-6190}}
+
+
+@inproceedings{ijcai2019-658,
+  title     = {LogAnomaly: Unsupervised Detection of Sequential and Quantitative Anomalies in Unstructured Logs},
+  author    = {Meng, Weibin and Liu, Ying and Zhu, Yichen and Zhang, Shenglin and Pei, Dan and Liu, Yuqing and Chen, Yihao and Zhang, Ruizhi and Tao, Shimin and Sun, Pei and Zhou, Rong},
+  booktitle = {Proceedings of the 28th International Joint Conference on
+               Artificial Intelligence (IJCAI-19)},
+ 
+  pages     = {4739--4745},
+  year      = {2019},
+  month     = {7}
+}
+
+
+@INPROCEEDINGS{8814585,
+author={S. {Nedelkoski} and J. {Cardoso} and O. {Kao}},
+booktitle={2019 IEEE 12th International Conference on Cloud Computing (CLOUD)},
+title={Anomaly Detection from System Tracing Data Using Multimodal Deep Learning},
+year={2019},
+volume={},
+number={},
+pages={179-186},
+keywords={Big Data;cloud computing;learning (artificial intelligence);neural net architecture;program diagnostics;recurrent neural nets;multimodal deep learning;big data;cloud services;single-modality neural architecture;multimodal neural network;system tracing data;machine learning;artificial intelligence for IT operations;fault detection;bimodal distributed tracing data;long short-term memory;AIOps, anomaly detection, multimodal deep learning, distributed tracing, service reliability, LSTM},
+ISSN={2159-6182},
+month={July},}
+
+
+
+@inproceedings{vaswani2017attention,
+  title={Attention is All You Need},
+  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={5998--6008},
+  year={2017}
+}
+
+@misc{devlin2018bert,
+  title={BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding},
+  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  eprint={1810.04805},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2018}
+}
+
+@article{velivckovic2017graph,
+  title={Graph attention networks},
+  author={Veli{\v{c}}kovi{\'c}, Petar and Cucurull, Guillem and Casanova, Arantxa and Romero, Adriana and Lio, Pietro and Bengio, Yoshua},
+  journal={arXiv preprint arXiv:1710.10903},
+  year={2017}
+}
+
+@inproceedings{chiu2018state,
+  title={State-of-the-art speech recognition with sequence-to-sequence models},
+  author={Chiu, Chung-Cheng and Sainath, Tara N and Wu, Yonghui and Prabhavalkar, Rohit and Nguyen, Patrick and Chen, Zhifeng and Kannan, Anjuli and Weiss, Ron J and Rao, Kanishka and Gonina, Ekaterina and others},
+  booktitle={2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={4774--4778},
+  year={2018},
+  organization={IEEE}
+}
+
+@book{sridharan2018distributed,
+    title={Distributed Systems Observability: A Guide to Building Robust Systems},
+    author={Sridharan, C.},
+    year={2018},
+     publisher={O'Reilly Media}
+}
+
+
+     
+@misc{rally, 
+    title={Rally}, 
+    howpublished={\url{https://rally.readthedocs.io/en/latest/}}, 
+    journal={Rally 2.0.1~dev2 documentation}, 
+    year={Accessed on 2020-08-09}
+}
+    
+@misc{kollaansible, 
+    title={Kolla-Ansible's documentation}, howpublished={\url{https://docs.openstack.org/kolla-ansible/latest/}}, journal={OpenStack Docs: Welcome to Kolla-Ansible's documentation},
+    year={Accessed on 2020-09-25}
+}
+
+
+
+
+
+@inproceedings{meng2019loganomaly,
+  title={Loganomaly: Unsupervised Detection of Sequential and Quantitative Anomalies in Unstructured Logs},
+  author={Meng, Weibin and Liu, Ying and Zhu, Yichen and Zhang, Shenglin and Pei, Dan and Liu, Yuqing and Chen, Yihao and Zhang, Ruizhi and Tao, Shimin and Sun, Pei and others},
+  booktitle={Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, IJCAI-19. International Joint Conferences on Artificial Intelligence Organization},
+  volume={7},
+  pages={4739--4745},
+  year={2019}
+}
+
+@article{cloze,
+  title={Cloze procedure: A new tool for measuring readability},
+  author={Taylor, Wilson L},
+  journal={Journalism quarterly},
+  volume={30},
+  number={4},
+  pages={415--433},
+  year={1953},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
+
+@inproceedings{fu2009execution,
+  title={Execution Anomaly Detection in Distributed Systems Through Unstructured Log Analysis},
+  author={Fu, Qiang and Lou, Jian-Guang and Wang, Yi and Li, Jiang},
+  booktitle={Proceedings of the 9th IEEE International Conference on Data Mining (ICDM)},
+  pages={149--158},
+  year={2009},
+  organization={IEEE}
+}
+
+@inproceedings{tang2011logsig,
+  title={LogSig: Generating system events from raw textual logs},
+  author={Tang, Liang and Li, Tao and Perng, Chang-Shing},
+  booktitle={Proceedings of the 20th ACM international conference on Information and knowledge management},
+  pages={785--794},
+  year={2011}
+}
+
+@inproceedings{mizutani2013incremental,
+  title={Incremental Mining of System Log Format},
+  author={Mizutani, Masayoshi},
+  booktitle={Proceedings of the 2013 IEEE International Conference on Services Computing (ICSC)},
+  pages={595--602},
+  year={2013},
+  organization={IEEE}
+}
+
+@article{shima2016length,
+  title={Length Matters: Clustering System Log Messages Using Length of Words},
+  author={Shima, Keiichi},
+  journal={arXiv preprint arXiv:1611.03213},
+  year={2016}
+}
+
+@inproceedings{nandi2016anomaly,
+  title={Anomaly Detection Using Program Control Flow Graph Mining from Execution Logs},
+  author={Nandi, Animesh and Mandal, Atri and Atreja, Shubham and Dasgupta, Gargi B and Bhattacharya, Subhrajit},
+  booktitle={Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages={215--224},
+  year={2016}
+}
+
+@inproceedings{nagappan2010abstracting,
+  title={Abstracting Log Lines to Log Event Types for Mining Software System Logs},
+  author={Nagappan, Meiyappan and Vouk, Mladen A},
+  booktitle={Proceedings of the 7th IEEE Working Conference on Mining Software Repositories (MSR 2010)},
+  pages={114--117},
+  year={2010},
+  organization={IEEE}
+}
+
+@article{jiang2008automated,
+  title={An Automated Approach for Abstracting Execution Logs to Execution Events},
+  author={Jiang, Zhen Ming and Hassan, Ahmed E and Hamann, Gilbert and Flora, Parminder},
+  journal={Journal of Software Maintenance and Evolution: Research and Practice},
+  volume={20},
+  number={4},
+  pages={249--267},
+  year={2008},
+  publisher={Wiley Online Library}
+}
+
+@inproceedings{messaoudi2018search,
+  title={A Search-Based Approach for Accurate Identification of Log Message Formats},
+  author={Messaoudi, Salma and Panichella, Annibale and Bianculli, Domenico and Briand, Lionel and Sasnauskas, Raimondas},
+  booktitle={Proceedings of the 26th Conference on Program Comprehension},
+  pages={167--177},
+  year={2018}
+}
+
+@article{ba2016layer,
+  title={Layer Normalization},
+  author={Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E},
+  journal={stat},
+  volume={1050},
+  pages={21},
+  year={2016}
+}
+
+@inproceedings{gehring2017convolutional,
+  title={Convolutional sequence to sequence learning},
+  author={Gehring, Jonas and Auli, Michael and Grangier, David and Yarats, Denis and Dauphin, Yann N},
+  booktitle={Proceedings of the 34th International Conference on Machine Learning-Volume 70},
+  pages={1243--1252},
+  year={2017},
+  organization={JMLR. org}
+}
+
+@inproceedings{liu2019logzip,
+  title={Logzip: Extracting Hidden Structures via Iterative Clustering for Log Compression},
+  author={Liu, Jinyang and Zhu, Jieming and He, Shilin and He, Pinjia and Zheng, Zibin and Lyu, Michael R},
+  booktitle={Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  pages={863--873},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{he2018identifying,
+  title={Identifying impactful service system problems via log analysis},
+  author={He, Shilin and Lin, Qingwei and Lou, Jian-Guang and Zhang, Hongyu and Lyu, Michael R and Zhang, Dongmei},
+  booktitle={Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={60--70},
+  year={2018}
+}
+
+
+
+
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+
+
+@article{hodge2004survey,
+  title={A survey of outlier detection methodologies},
+  author={Hodge, Victoria and Austin, Jim},
+  journal={Artificial intelligence review},
+  volume={22},
+  number={2},
+  pages={85--126},
+  year={2004},
+  publisher={Springer}
+}
+
+@article{pimentel2014review,
+  title={A review of novelty detection},
+  author={Pimentel, Marco AF and Clifton, David A and Clifton, Lei and Tarassenko, Lionel},
+  journal={Signal Processing},
+  volume={99},
+  pages={215--249},
+  year={2014},
+  publisher={Elsevier}
+}
+
+
+
+
+
+@inproceedings{severyn2015twitter,
+  title={Twitter sentiment analysis with deep convolutional neural networks},
+  author={Severyn, Aliaksei and Moschitti, Alessandro},
+  booktitle={Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={959--962},
+  year={2015}
+}
+
+@inproceedings{mikolov2013distributed,
+  title={Distributed Representations of Words and Phrases and Their Compositionality},
+  author={Mikolov, Tomas and Sutskever, Ilya and Chen, Kai and Corrado, Greg S and Dean, Jeff},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={3111--3119},
+  year={2013}
+}
+
+
+@article{nguyen2016integrating,
+  title={Integrating Distributional Lexical Contrast Into Word Embeddings for Antonym-Synonym Distinction},
+  author={Nguyen, Kim Anh and Walde, Sabine Schulte im and Vu, Ngoc Thang},
+  journal={arXiv preprint arXiv:1605.07766},
+  year={2016}
+}
+
+@inproceedings{gamon2004sentiment,
+  title={Sentiment classification on customer feedback data: noisy data, large feature vectors, and the role of linguistic analysis},
+  author={Gamon, Michael},
+  booktitle={Proceedings of the 20th international conference on Computational Linguistics},
+  pages={841},
+  year={2004},
+  organization={Association for Computational Linguistics}
+}
+
+@article{pang2008opinion,
+  title={Opinion mining and sentiment analysis},
+  author={Pang, Bo and Lee, Lillian and others},
+  journal={Foundations and Trends{\textregistered} in Information Retrieval},
+  volume={2},
+  number={1--2},
+  pages={1--135},
+  year={2008},
+  publisher={Now Publishers, Inc.}
+}
+
+@incollection{popescu2007extracting,
+  title={Extracting product features and opinions from reviews},
+  author={Popescu, Ana-Maria and Etzioni, Orena},
+  booktitle={Natural language processing and text mining},
+  pages={9--28},
+  year={2007},
+  publisher={Springer}
+}
+
+@inproceedings{agarwal2011sentiment,
+  title={Sentiment analysis of twitter data},
+  author={Agarwal, Apoorv and Xie, Boyi and Vovsha, Ilia and Rambow, Owen and Passonneau, Rebecca J},
+  booktitle={Proceedings of the Workshop on Language in Social Media (LSM 2011)},
+  pages={30--38},
+  year={2011}
+}
+
+@article{nakov2019semeval,
+  title={SemEval-2016 task 4: Sentiment analysis in Twitter},
+  author={Nakov, Preslav and Ritter, Alan and Rosenthal, Sara and Sebastiani, Fabrizio and Stoyanov, Veselin},
+  journal={arXiv preprint arXiv:1912.01973},
+  year={2019}
+}
+
+@inproceedings{zhou2017anomaly,
+  title={Anomaly Detection with Robust Deep Autoencoders},
+  author={Zhou, Chong and Paffenroth, Randy C},
+  booktitle={Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages={665--674},
+  year={2017}
+}
+
+@inproceedings{ruff-etal-2019-self,
+    title = "Self-Attentive, Multi-Context One-Class Classification for Unsupervised Anomaly Detection on Text",
+    author = "Ruff, Lukas  and
+      Zemlyanskiy, Yury  and
+      Vandermeulen, Robert  and
+      Schnake, Thomas  and
+      Kloft, Marius",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    year = "2019",
+    publisher = "Association for Computational Linguistics",
+    pages = "4061--4071",
+    abstract = "There exist few text-specific methods for unsupervised anomaly detection, and for those that do exist, none utilize pre-trained models for distributed vector representations of words. In this paper we introduce a new anomaly detection method{---}Context Vector Data Description (CVDD){---}which builds upon word embedding models to learn multiple sentence representations that capture multiple semantic contexts via the self-attention mechanism. Modeling multiple contexts enables us to perform contextual anomaly detection of sentences and phrases with respect to the multiple themes and concepts present in an unlabeled text corpus. These contexts in combination with the self-attention weights make our method highly interpretable. We demonstrate the effectiveness of CVDD quantitatively as well as qualitatively on the well-known Reuters, 20 Newsgroups, and IMDB Movie Reviews datasets.",
+}
+
+@article{steinwart2005classification,
+  title={A Classification Framework for Anomaly Detection},
+  author={Steinwart, Ingo and Hush, Don and Scovel, Clint},
+  journal={Journal of Machine Learning Research},
+  volume={6},
+  number={Feb},
+  pages={211--232},
+  year={2005}
+}
+
+@article{tsybakov1997nonparametric,
+  title={On Nonparametric Estimation of Density Level Sets},
+  author={Tsybakov, Alexandre B and others},
+  journal={The Annals of Statistics},
+  volume={25},
+  number={3},
+  pages={948--969},
+  year={1997},
+  publisher={Institute of Mathematical Statistics}
+}
+
+@misc{ruff2019deep,
+  title={Deep Semi-Supervised Anomaly Detection},
+  author={Ruff, Lukas and Vandermeulen, Robert A and G{\"o}rnitz, Nico and Binder, Alexander and M{\"u}ller, Emmanuel and M{\"u}ller, Klaus-Robert and Kloft, Marius},
+  eprint={1906.02694},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2019}
+}
+
+@article{bengio2013representation,
+  title={Representation Learning: A Review and New Perspectives},
+  author={Bengio, Yoshua and Courville, Aaron and Vincent, Pascal},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={35},
+  number={8},
+  pages={1798--1828},
+  year={2013},
+  publisher={IEEE}
+}
+
+@inproceedings{pennington2014glove,
+  author = {Jeffrey Pennington and Richard Socher and Christopher D. Manning},
+  booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  title = {GloVe: Global Vectors for Word Representation},
+  year = {2014},
+  pages = {1532--1543},
+  url = {http://www.aclweb.org/anthology/D14-1162},
+}
+
+
+@inproceedings{hendrycks2019using,
+  title={Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty},
+  author={Hendrycks, Dan and Mazeika, Mantas and Kadavath, Saurav and Song, Dawn},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={15637--15648},
+  year={2019}
+}
+
+
+
+@inproceedings{rasmus2015semi,
+  title={Semi-supervised learning with ladder networks},
+  author={Rasmus, Antti and Berglund, Mathias and Honkala, Mikko and Valpola, Harri and Raiko, Tapani},
+  booktitle={Advances in neural information processing systems},
+  pages={3546--3554},
+  year={2015}
+}
+
+@inproceedings{kingma2014semi,
+  title={Semi-supervised learning with deep generative models},
+  author={Kingma, Durk P and Mohamed, Shakir and Rezende, Danilo Jimenez and Welling, Max},
+  booktitle={Advances in neural information processing systems},
+  pages={3581--3589},
+  year={2014}
+}
+
+@article{loper2002nltk,
+  title={NLTK: The Natural Language Toolkit},
+  author={Loper, Edward and Bird, Steven},
+  journal={arXiv preprint cs/0205028},
+  year={2002}
+}
+
+@inproceedings{oliner2007supercomputers,
+  title={What Supercomputers Say: A Study of Five System Logs},
+  author={Oliner, Adam and Stearley, Jon},
+  booktitle={Proceedings of the 37th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN'07)},
+  pages={575--584},
+  year={2007},
+  organization={IEEE}
+}
+
+
+
+@article{maaten2008visualizing,
+  title={Visualizing Data Using T-SNE},
+  author={Maaten, Laurens van der and Hinton, Geoffrey},
+  journal={Journal of Machine Learning Research},
+  volume={9},
+  number={Nov},
+  pages={2579--2605},
+  year={2008}
+}
+
+@inproceedings{zheng2011co,
+  title={Co-Analysis of RAS Log and Job Log on Blue Gene/P},
+  author={Zheng, Ziming and Yu, Li and Tang, Wei and Lan, Zhiling and Gupta, Rinku and Desai, Narayan and Coghlan, Susan and Buettner, Daniel},
+  booktitle={2011 IEEE International Parallel \& Distributed Processing Symposium},
+  pages={840--851},
+  year={2011},
+  organization={IEEE}
+}
+
+
+@inproceedings{bodik2010fingerprinting,
+  title={Fingerprinting the Datacenter: Automated Classification of Performance Crises},
+  author={Bodik, Peter and Goldszmidt, Moises and Fox, Armando and Woodard, Dawn B and Andersen, Hans},
+  booktitle={Proceedings of the 5th European Conference on Computer Systems (EuroSys)},
+  pages={111--124},
+  year={2010}
+}
+
+@InProceedings{jakublogs,
+author="Breier, Jakub
+and Brani{\v{s}}ov{\'a}, Jana",
+title="Anomaly Detection from Log Files Using Data Mining Techniques",
+booktitle="Information Science and Applications",
+year="2015",
+pages="449--457",
+abstract="Log files are created by devices or systems in order to provide information about processes or actions that were performed. Detailed inspection of security logs can reveal potential security breaches and it can show us system weaknesses. In our work we propose a novel anomaly-based detection approach based on data mining techniques for log analysis. Our approach uses Apache Hadoop technique to enable processing of large data sets in a parallel way. Dynamic rule creation enables us to detect new types of breaches without further human intervention. Overall error rates of our method are below 10{\%}."
+}
+
+
+@inproceedings{chen2004failure,
+  title={Failure Diagnosis Using Decision Trees},
+  author={Chen, Mike and Zheng, Alice X and Lloyd, Jim and Jordan, Michael I and Brewer, Eric},
+  booktitle={Proceedings of the International Conference on Autonomic Computing (ICAC)},
+  pages={36--43},
+  year={2004},
+  organization={IEEE}
+}
+
+@inproceedings{farshchi2015experience,
+  title={Experience Report: Anomaly Detection of Cloud Application Operations using Log and Cloud Metric Correlation Analysis},
+  author={Farshchi, Mostafa and Schneider, Jean-Guy and Weber, Ingo and Grundy, John},
+  booktitle={Proceedings of the 26th IEEE International Symposium on Software Reliability Engineering (ISSRE)},
+  pages={24--34},
+  year={2015},
+  organization={IEEE}
+}
+
+
+
+
+@inproceedings{liang2007failure,
+  title={Failure Prediction in IBM BlueGene/L Event Logs},
+  author={Liang, Yinglung and Zhang, Yanyong and Xiong, Hui and Sahoo, Ramendra},
+  booktitle={Proceedings of the 7th IEEE International Conference on Data Mining (ICDM 2007)},
+  pages={583--588},
+  year={2007},
+  organization={IEEE}
+}
+
+@incollection{breier2015anomaly,
+  title={Anomaly detection from log files using data mining techniques},
+  author={Breier, Jakub and Brani{\v{s}}ov{\'a}, Jana},
+  booktitle={Information Science and Applications},
+  pages={449--457},
+  year={2015},
+  publisher={Springer}
+}
+
+
+@inproceedings{shilinpca,
+  author    = {Shilin He and
+               Jieming Zhu and
+               Pinjia He and
+               Michael R. Lyu},
+  title     = {Experience Report: System Log Analysis for Anomaly Detection},
+  booktitle = {27th {IEEE} International Symposium on Software Reliability Engineering,
+               {ISSRE}},
+  pages     = {207--218},
+  publisher = {{IEEE} Computer Society},
+  year      = {2016},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@article{Zhang2016AutomatedIS,
+  title={Automated IT system failure prediction: A deep learning approach},
+  author={Ke Zhang and Jianwu Xu and Martin Renqiang Min and Guofei Jiang and Konstantinos Pelechrinis and Hui Zhang},
+  journal={2016 IEEE International Conference on Big Data (Big Data)},
+  year={2016},
+  pages={1291-1300}
+}
+
+@article{Vinayakumar2017LongSM,
+  title={Long Short-Term Memory Based Operation Log Anomaly Detection},
+  author={R. Vinayakumar and K. P. Soman and Prabaharan Poornachandran},
+  journal={2017 International Conference on Advances in Computing, Communications and Informatics (ICACCI)},
+  year={2017},
+  pages={236-242}
+}
+
+@inproceedings{bertero2017experience,
+  title={Experience Report: Log Mining Using Natural Language Processing and Application to Anomaly Detection},
+  author={Bertero, Christophe and Roy, Matthieu and Sauvanaud, Carla and Tr{\'e}dan, Gilles},
+  booktitle={2017 IEEE 28th International Symposium on Software Reliability Engineering (ISSRE)},
+  pages={351--360},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{zeiler2014visualizing,
+  title={Visualizing and understanding convolutional networks},
+  author={Zeiler, Matthew D and Fergus, Rob},
+  booktitle={European conference on computer vision},
+  pages={818--833},
+  year={2014},
+  organization={Springer}
+}
+
+
+@article{key:outlierdetection,
+	author = {Kamal Malik and H. Sadawarti and Kalra G. S},
+	title = {Article: Comparative Analysis of Outlier Detection Techniques},
+	journal = {International Journal of Computer Applications},
+	year = {2014},
+	volume = {97},
+	number = {8},
+	pages = {12-21},
+	month = {July},
+	note = {Full text available}
+}
+@article{wu2014data,
+  title={Data mining with big data},
+  author={Wu, Xindong and Zhu, Xingquan and Wu, Gong-Qing and Ding, Wei},
+  journal={IEEE transactions on knowledge and data engineering},
+  volume={26},
+  number={1},
+  pages={97--107},
+  year={2014},
+  publisher={IEEE}
+}
+@INPROCEEDINGS{6785539, 
+author={D. B. Roy and R. Chaki}, 
+booktitle={2014 Applications and Innovations in Mobile Computing (AIMoC)}, 
+title={State of the art analysis of network traffic anomaly detection}, 
+year={2014}, 
+volume={}, 
+number={}, 
+pages={186-192}, 
+keywords={computer network security;telecommunication traffic;ubiquitous computing;network traffic anomaly detection;pervasive computing;network monitoring;network security;monitoring device;link flow;link capacity;node anomalous behavior;Telecommunication traffic;Monitoring;Algorithm design and analysis;Wavelet analysis;Covariance matrices;Principal component analysis;Network Traffic;Anomaly;Statistical;Machine learning;Streaming Data Analysis}, 
+ISSN={}, 
+month={Feb},}
+
+
+
+@outlier{Outlier:1,
+author = {Gwadera, Robert and Atallah, Mikhail and Szpankowski, Wojciech},
+year = {2005},
+month = {04},
+pages = {},
+title = {Markov Models for Identification of Significant Episodes.}
+}
+
+
+
+@misc{ranomaly, title={Twitter Anomaly in R}, url={https://anomaly.io/anomaly-detection-twitter-r/}, journal={anomaly.io}}
+
+
+
+@misc{campuswellness2017, title={Deep Learning | Data Analytics}, url={https://uwaterloo.ca/data-analytics/deep-learning}, journal={Campus Wellness}, year={2017}, month={Sep}}
+
+
+
+@inproceedings{pascanu2013difficulty,
+  title={On the difficulty of training recurrent neural networks},
+  author={Pascanu, Razvan and Mikolov, Tomas and Bengio, Yoshua},
+  booktitle={International Conference on Machine Learning},
+  pages={1310--1318},
+  year={2013}
+}
+
+
+
+
+@article{reynolds2015gaussian,
+  title={Gaussian mixture models},
+  author={Reynolds, Douglas},
+  journal={Encyclopedia of biometrics},
+  pages={827--832},
+  year={2015},
+  publisher={Springer}
+}
+
+
+
+@misc{tensorflow, title={tensorflow/serving}, url={https://github.com/tensorflow/serving}, 
+journal={GitHub}, author={Tensorflow}}
+
+@article{DBLP:journals/corr/abs-1802-04647,
+  author    = {Niketan Pansare and
+               Michael Dusenberry and
+               Nakul Jindal and
+               Matthias Boehm and
+               Berthold Reinwald and
+               Prithviraj Sen},
+  title     = {Deep Learning with Apache SystemML},
+  journal   = {CoRR},
+  volume    = {abs/1802.04647},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1802.04647},
+  archivePrefix = {arXiv},
+  eprint    = {1802.04647},
+  timestamp = {Mon, 13 Aug 2018 16:47:44 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1802-04647},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Du2017ATOMET,
+  title={ATOM: Efficient Tracking, Monitoring, and Orchestration of Cloud Resources},
+  author={Min Du and Feifei Li},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  year={2017},
+  volume={28},
+  pages={2172-2189}
+}
+
+
+
+@inproceedings{yu2016cloudseer,
+  title={Cloudseer: Workflow monitoring of cloud infrastructures via interleaved logs},
+  author={Yu, Xiao and Joshi, Pallavi and Xu, Jianwu and Jin, Guoliang and Zhang, Hui and Jiang, Guofei},
+  booktitle={ACM SIGPLAN Notices},
+  volume={51},
+  number={4},
+  pages={489--502},
+  year={2016},
+  organization={ACM}
+}
+
+@article{bengio2003neural,
+  title={A neural probabilistic language model},
+  author={Bengio, Yoshua and Ducharme, R{\'e}jean and Vincent, Pascal and Jauvin, Christian},
+  journal={Journal of machine learning research},
+  volume={3},
+  number={Feb},
+  pages={1137--1155},
+  year={2003}
+}
+
+@inproceedings{mikolov2010recurrent,
+  title={Recurrent neural network based language model},
+  author={Mikolov, Tom{\'a}{\v{s}} and Karafi{\'a}t, Martin and Burget, Luk{\'a}{\v{s}} and {\v{C}}ernock{\`y}, Jan and Khudanpur, Sanjeev},
+  booktitle={Eleventh Annual Conference of the International Speech Communication Association},
+  year={2010}
+}
+
+
+@inproceedings{nanduri2016anomaly,
+  title={Anomaly detection in aircraft data using Recurrent Neural Networks (RNN)},
+  author={Nanduri, Anvardh and Sherry, Lance},
+  booktitle={Integrated Communications Navigation and Surveillance (ICNS), 2016},
+  pages={5C2--1},
+  year={2016},
+  organization={IEEE}
+}
+@phdthesis{izakian2014cluster,
+  title={Cluster-Centric Anomaly Detection and Characterization in Spatial Time Series},
+  author={Izakian, Hesam},
+  year={2014},
+  school={University of Alberta}
+}
+
+
+@article{34d143d2a2b3492f9fe0da520c5ac1bf,
+title = "Detecting anomalies in time series data via a deep learning algorithm combining wavelets, neural networks and Hilbert transform",
+abstract = "The quest for more efficient real-time detection of anomalies in time series data is critically important in numerous applications and systems ranging from intelligent transportation, structural health monitoring, heart disease, and earthquake prediction. Although the range of application is wide, anomaly detection algorithms are usually domain specific and build on experts’ knowledge. Here a new signal processing algorithm –inspired by the deep learning paradigm – is presented that combines wavelets, neural networks, and Hilbert transform performs robustly and is transferable. The proposed neural network structure facilitates learning short and long-term pattern interdependencies; a task usually hard to accomplish using standard neural network training algorithms. The paper provides guidelines for selecting the neural network's buffer size, training algorithm, and anomaly detection features. The algorithm learns online the system’s normal behavior and does not require the existence of anomalous data, for assessing its statistical significance. This is essential for applications that require customization. The anomalies are detected by analyzing hierarchically the instantaneous frequency and amplitude of the residual signal. Its applicability is demonstrated through detection of anomalies in the Seismic Electric Signal activity, that is potentially important for earthquake prediction; and automated detection of road anomalies (e.g. potholes, bumps, etc.) using smartphone sensors. The evaluation of the anomaly detection algorithm is based on the statistical significance of the Receiver Operating Characteristic curve. Finally, we propose strategies for decision-making that may increase the efficiency of the application of the algorithm, and expedite evaluation of real-time data.",
+keywords = "Anomaly detection, Deep learning, Receiver operating characteristics",
+author = "Stratis Kanarachos and Stavros Christopoulos and Alexander Chroneos and Michael Fitzpatrick",
+note = "There is a 12 month embargo period.",
+year = "2017",
+month = "11",
+volume = "85",
+pages = "292--304",
+journal = "Expert Systems with Applications",
+issn = "0957-4174",
+publisher = "Elsevier",
+}
+
+@inproceedings{hermans2013training,
+  title={Training and analysing deep recurrent neural networks},
+  author={Hermans, Michiel and Schrauwen, Benjamin},
+  booktitle={Advances in neural information processing systems},
+  pages={190--198},
+  year={2013}
+}
+
+@book{george2008brain,
+  title={How the brain might work: A hierarchical and temporal model for learning and recognition},
+  author={George, Dileep},
+  year={2008},
+  publisher={Stanford University Stanford}
+}
+
+@article{ahmad2017unsupervised,
+  title={Unsupervised real-time anomaly detection for streaming data},
+  author={Ahmad, Subutai and Lavin, Alexander and Purdy, Scott and Agha, Zuha},
+  journal={Neurocomputing},
+  volume={262},
+  pages={134--147},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{hayton2007static,
+  title={Static and dynamic novelty detection methods for jet engine health monitoring},
+  author={Hayton, Paul and Utete, Simukai and King, Dennis and King, Steve and Anuzis, Paul and Tarassenko, Lionel},
+  journal={Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences},
+  volume={365},
+  number={1851},
+  pages={493--514},
+  year={2007},
+  publisher={The Royal Society}
+}
+
+
+@article{He2016ExperienceRS,
+  title={Experience Report: System Log Analysis for Anomaly Detection},
+  author={Shilin He and Jieming Zhu and Pinjia He and Michael R. Lyu},
+  journal={2016 IEEE 27th International Symposium on Software Reliability Engineering (ISSRE)},
+  year={2016},
+  pages={207-218}
+}
+
+@inproceedings{DBLP:conf/bigdataconf/ZhangXMJPZ16,
+  author    = {Ke Zhang and
+               Jianwu Xu and
+               Martin Renqiang Min and
+               Guofei Jiang and
+               Konstantinos Pelechrinis and
+               Hui Zhang},
+  title     = {Automated {IT} system failure prediction: {A} deep learning approach},
+  booktitle = {2016 {IEEE} International Conference on Big Data, BigData 2016, Washington DC, USA, December 5-8, 2016},
+  pages     = {1291--1300},
+  year      = {2016},
+  url       = {https://doi.org/10.1109/BigData.2016.7840733},
+  timestamp = {Thu, 20 Jul 2017 12:20:57 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/bigdataconf/ZhangXMJPZ16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@misc{tensorflow2015-whitepaper,
+title={ {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+url={https://www.tensorflow.org/},
+note={Software available from tensorflow.org},
+author={
+    Mart\'{\i}n~Abadi and
+    Ashish~Agarwal and
+    Paul~Barham and
+    Eugene~Brevdo and
+    Zhifeng~Chen and
+    Craig~Citro and
+    Greg~S.~Corrado and
+    Andy~Davis and
+    Jeffrey~Dean and
+    Matthieu~Devin and
+    Sanjay~Ghemawat and
+    Ian~Goodfellow and
+    Andrew~Harp and
+    Geoffrey~Irving and
+    Michael~Isard and
+    Yangqing Jia and
+    Rafal~Jozefowicz and
+    Lukasz~Kaiser and
+    Manjunath~Kudlur and
+    Josh~Levenberg and
+    Dandelion~Man\'{e} and
+    Rajat~Monga and
+    Sherry~Moore and
+    Derek~Murray and
+    Chris~Olah and
+    Mike~Schuster and
+    Jonathon~Shlens and
+    Benoit~Steiner and
+    Ilya~Sutskever and
+    Kunal~Talwar and
+    Paul~Tucker and
+    Vincent~Vanhoucke and
+    Vijay~Vasudevan and
+    Fernanda~Vi\'{e}gas and
+    Oriol~Vinyals and
+    Pete~Warden and
+    Martin~Wattenberg and
+    Martin~Wicke and
+    Yuan~Yu and
+    Xiaoqiang~Zheng},
+  year={2015},
+}
+
+
+
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+
+@article{mckinneypandas,
+  title={pandas: a Foundational Python Library for Data Analysis and Statistics},
+  author={McKinney, Wes}
+}
+
+
+
+@InProceedings{10.1007/978-3-642-40450-441,
+author="Fichtenberger, Hendrik
+and Gill{\'e}, Marc
+and Schmidt, Melanie
+and Schwiegelshohn, Chris
+and Sohler, Christian",
+editor="Bodlaender, Hans L.
+and Italiano, Giuseppe F.",
+title="BICO: BIRCH Meets Coresets for k-Means Clustering",
+booktitle="Algorithms -- ESA 2013",
+year="2013",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="481--492",
+abstract="We design a data stream algorithm for the k-means problem, called BICO, that combines the data structure of the SIGMOD Test of Time award winning algorithm BIRCH [27] with the theoretical concept of coresets for clustering problems. The k-means problem asks for a set C of k centers minimizing the sum of the squared distances from every point in a set P to its nearest center in C. In a data stream, the points arrive one by one in arbitrary order and there is limited storage space.",
+isbn="978-3-642-40450-4"
+}
+
+
+@inproceedings{dean2012ubl,
+  title={Ubl: Unsupervised behavior learning for predicting performance anomalies in virtualized cloud systems},
+  author={Dean, Daniel Joseph and Nguyen, Hiep and Gu, Xiaohui},
+  booktitle={Proceedings of the 9th international conference on Autonomic computing},
+  pages={191--200},
+  year={2012},
+  organization={ACM}
+}
+
+@INPROCEEDINGS{7830676, 
+author={A. Bhattacharyya and S. A. J. Jandaghi and S. Sotiriadis and C. Amza}, 
+booktitle={2016 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)}, 
+title={Semantic Aware Online Detection of Resource Anomalies on the Cloud}, 
+year={2016}, 
+volume={}, 
+number={}, 
+pages={134-143}, 
+keywords={cloud computing;learning (artificial intelligence);neural nets;pattern recognition;semantic aware online detection;resource anomaly detection;cloud computing;hardware resource management;cloud environment;application performance degradation;quality of service;neural network learning;pattern recognition;machine learning technique;feedback directed scheme;Monitoring;Context;Cloud computing;Semantics;Throughput;Pattern recognition;Delays}, 
+ISSN={2330-2186}, 
+month={Dec},}
+
+
+
+@inproceedings{sauvanaud2016anomaly,
+  title={Anomaly detection and root cause localization in virtual network functions},
+  author={Sauvanaud, Carla and Lazri, Kahina and Ka{\^a}niche, Mohamed and Kanoun, Karama},
+  booktitle={Software Reliability Engineering (ISSRE), 2016 IEEE 27th International Symposium on},
+  pages={196--206},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{ahmed2016survey,
+  title={A survey of network anomaly detection techniques},
+  author={Ahmed, Mohiuddin and Mahmood, Abdun Naser and Hu, Jiankun},
+  journal={Journal of Network and Computer Applications},
+  volume={60},
+  pages={19--31},
+  year={2016},
+  publisher={Elsevier}
+}
+
+
+
+@article{sambasivan2014so,
+  title={So, you want to trace your distributed system? Key design insights from years of practical experience},
+  author={Sambasivan, Raja R and Fonseca, Rodrigo and Shafer, Ilari and Ganger, Gregory R}
+}
+
+
+
+@article{phua2004minority,
+  title={Minority report in fraud detection: classification of skewed data},
+  author={Phua, Clifton and Alahakoon, Damminda and Lee, Vincent},
+  journal={Acm sigkdd explorations newsletter},
+  volume={6},
+  number={1},
+  pages={50--59},
+  year={2004},
+  publisher={ACM}
+}
+
+@inproceedings{Vilalta:2002:PRE:844380.844743,
+ author = {Vilalta, Ricardo and Ma, Sheng},
+ title = {Predicting Rare Events In Temporal Domains},
+ booktitle = {Proceedings of the 2002 IEEE International Conference on Data Mining},
+ series = {ICDM '02},
+ year = {2002},
+ isbn = {0-7695-1754-4},
+ pages = {474--},
+ url = {http://dl.acm.org/citation.cfm?id=844380.844743},
+ acmid = {844743},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+} 
+
+
+
+@inproceedings{kohonen1997exploration,
+  title={Exploration of very large databases by self-organizing maps},
+  author={Kohonen, Teuvo},
+  booktitle={Proceedings of International Conference on Neural Networks (ICNN'97)},
+  volume={1},
+  pages={PL1--PL6},
+  year={1997},
+  organization={IEEE}
+}
+
+
+
+@article{fawaz2018deep,
+  title={Deep learning for time series classification: a review},
+  author={Fawaz, Hassan Ismail and Forestier, Germain and Weber, Jonathan and Idoumghar, Lhassane and Muller, Pierre-Alain},
+  journal={arXiv preprint arXiv:1809.04356},
+  year={2018}
+}
+
+
+
+
+@article{key:outlierdetection,
+	author = {Kamal Malik and H. Sadawarti and Kalra G. S},
+	title = {Article: Comparative Analysis of Outlier Detection Techniques},
+	journal = {International Journal of Computer Applications},
+	year = {2014},
+	volume = {97},
+	number = {8},
+	pages = {12-21},
+	month = {July},
+	note = {Full text available}
+}
+@article{wu2014data,
+  title={Data mining with big data},
+  author={Wu, Xindong and Zhu, Xingquan and Wu, Gong-Qing and Ding, Wei},
+  journal={IEEE transactions on knowledge and data engineering},
+  volume={26},
+  number={1},
+  pages={97--107},
+  year={2014},
+  publisher={IEEE}
+}
+@INPROCEEDINGS{6785539, 
+author={D. B. Roy and R. Chaki}, 
+booktitle={2014 Applications and Innovations in Mobile Computing (AIMoC)}, 
+title={State of the art analysis of network traffic anomaly detection}, 
+year={2014}, 
+volume={}, 
+number={}, 
+pages={186-192}, 
+keywords={computer network security;telecommunication traffic;ubiquitous computing;network traffic anomaly detection;pervasive computing;network monitoring;network security;monitoring device;link flow;link capacity;node anomalous behavior;Telecommunication traffic;Monitoring;Algorithm design and analysis;Wavelet analysis;Covariance matrices;Principal component analysis;Network Traffic;Anomaly;Statistical;Machine learning;Streaming Data Analysis}, 
+ISSN={}, 
+month={Feb},}
+
+
+
+@outlier{Outlier:1,
+author = {Gwadera, Robert and Atallah, Mikhail and Szpankowski, Wojciech},
+year = {2005},
+month = {04},
+pages = {},
+title = {Markov Models for Identification of Significant Episodes.}
+}
+
+
+
+@misc{ranomaly, title={Twitter Anomaly in R}, url={https://anomaly.io/anomaly-detection-twitter-r/}, journal={anomaly.io}}
+
+
+
+@misc{campuswellness2017, title={Deep Learning | Data Analytics}, url={https://uwaterloo.ca/data-analytics/deep-learning}, journal={Campus Wellness}, year={2017}, month={Sep}}
+
+
+
+@inproceedings{pascanu2013difficulty,
+  title={On the difficulty of training recurrent neural networks},
+  author={Pascanu, Razvan and Mikolov, Tomas and Bengio, Yoshua},
+  booktitle={International Conference on Machine Learning},
+  pages={1310--1318},
+  year={2013}
+}
+
+
+@article{vincent2010stacked,
+  title={Stacked denoising autoencoders: Learning useful representations in a deep network with a local denoising criterion},
+  author={Vincent, Pascal and Larochelle, Hugo and Lajoie, Isabelle and Bengio, Yoshua and Manzagol, Pierre-Antoine},
+  journal={Journal of machine learning research},
+  volume={11},
+  number={Dec},
+  pages={3371--3408},
+  year={2010}
+}
+
+
+@article{reynolds2015gaussian,
+  title={Gaussian mixture models},
+  author={Reynolds, Douglas},
+  journal={Encyclopedia of biometrics},
+  pages={827--832},
+  year={2015},
+  publisher={Springer}
+}
+
+
+@misc{tensorflow, title={tensorflow/serving}, url={https://github.com/tensorflow/serving}, 
+journal={GitHub}, author={Tensorflow}}
+
+@article{DBLP:journals/corr/abs-1802-04647,
+  author    = {Niketan Pansare and
+               Michael Dusenberry and
+               Nakul Jindal and
+               Matthias Boehm and
+               Berthold Reinwald and
+               Prithviraj Sen},
+  title     = {Deep Learning with Apache SystemML},
+  journal   = {CoRR},
+  volume    = {abs/1802.04647},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1802.04647},
+  archivePrefix = {arXiv},
+  eprint    = {1802.04647},
+  timestamp = {Mon, 13 Aug 2018 16:47:44 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1802-04647},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Du2017ATOMET,
+  title={ATOM: Efficient Tracking, Monitoring, and Orchestration of Cloud Resources},
+  author={Min Du and Feifei Li},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  year={2017},
+  volume={28},
+  pages={2172-2189}
+}
+
+
+@inproceedings{yu2016cloudseer,
+  title={Cloudseer: Workflow monitoring of cloud infrastructures via interleaved logs},
+  author={Yu, Xiao and Joshi, Pallavi and Xu, Jianwu and Jin, Guoliang and Zhang, Hui and Jiang, Guofei},
+  booktitle={ACM SIGPLAN Notices},
+  volume={51},
+  number={4},
+  pages={489--502},
+  year={2016},
+  organization={ACM}
+}
+
+@article{bengio2003neural,
+  title={A neural probabilistic language model},
+  author={Bengio, Yoshua and Ducharme, R{\'e}jean and Vincent, Pascal and Jauvin, Christian},
+  journal={Journal of machine learning research},
+  volume={3},
+  number={Feb},
+  pages={1137--1155},
+  year={2003}
+}
+
+@inproceedings{mikolov2010recurrent,
+  title={Recurrent neural network based language model},
+  author={Mikolov, Tom{\'a}{\v{s}} and Karafi{\'a}t, Martin and Burget, Luk{\'a}{\v{s}} and {\v{C}}ernock{\`y}, Jan and Khudanpur, Sanjeev},
+  booktitle={Eleventh Annual Conference of the International Speech Communication Association},
+  year={2010}
+}
+
+
+
+@inproceedings{nanduri2016anomaly,
+  title={Anomaly detection in aircraft data using Recurrent Neural Networks (RNN)},
+  author={Nanduri, Anvardh and Sherry, Lance},
+  booktitle={Integrated Communications Navigation and Surveillance (ICNS), 2016},
+  pages={5C2--1},
+  year={2016},
+  organization={IEEE}
+}
+@phdthesis{izakian2014cluster,
+  title={Cluster-Centric Anomaly Detection and Characterization in Spatial Time Series},
+  author={Izakian, Hesam},
+  year={2014},
+  school={University of Alberta}
+}
+
+
+@article{34d143d2a2b3492f9fe0da520c5ac1bf,
+title = "Detecting anomalies in time series data via a deep learning algorithm combining wavelets, neural networks and Hilbert transform",
+abstract = "The quest for more efficient real-time detection of anomalies in time series data is critically important in numerous applications and systems ranging from intelligent transportation, structural health monitoring, heart disease, and earthquake prediction. Although the range of application is wide, anomaly detection algorithms are usually domain specific and build on experts’ knowledge. Here a new signal processing algorithm –inspired by the deep learning paradigm – is presented that combines wavelets, neural networks, and Hilbert transform performs robustly and is transferable. The proposed neural network structure facilitates learning short and long-term pattern interdependencies; a task usually hard to accomplish using standard neural network training algorithms. The paper provides guidelines for selecting the neural network's buffer size, training algorithm, and anomaly detection features. The algorithm learns online the system’s normal behavior and does not require the existence of anomalous data, for assessing its statistical significance. This is essential for applications that require customization. The anomalies are detected by analyzing hierarchically the instantaneous frequency and amplitude of the residual signal. Its applicability is demonstrated through detection of anomalies in the Seismic Electric Signal activity, that is potentially important for earthquake prediction; and automated detection of road anomalies (e.g. potholes, bumps, etc.) using smartphone sensors. The evaluation of the anomaly detection algorithm is based on the statistical significance of the Receiver Operating Characteristic curve. Finally, we propose strategies for decision-making that may increase the efficiency of the application of the algorithm, and expedite evaluation of real-time data.",
+keywords = "Anomaly detection, Deep learning, Receiver operating characteristics",
+author = "Stratis Kanarachos and Stavros Christopoulos and Alexander Chroneos and Michael Fitzpatrick",
+note = "There is a 12 month embargo period.",
+year = "2017",
+month = "11",
+volume = "85",
+pages = "292--304",
+journal = "Expert Systems with Applications",
+issn = "0957-4174",
+publisher = "Elsevier",
+}
+
+@inproceedings{hermans2013training,
+  title={Training and analysing deep recurrent neural networks},
+  author={Hermans, Michiel and Schrauwen, Benjamin},
+  booktitle={Advances in neural information processing systems},
+  pages={190--198},
+  year={2013}
+}
+
+@book{george2008brain,
+  title={How the brain might work: A hierarchical and temporal model for learning and recognition},
+  author={George, Dileep},
+  year={2008},
+  publisher={Stanford University Stanford}
+}
+
+@article{ahmad2017unsupervised,
+  title={Unsupervised real-time anomaly detection for streaming data},
+  author={Ahmad, Subutai and Lavin, Alexander and Purdy, Scott and Agha, Zuha},
+  journal={Neurocomputing},
+  volume={262},
+  pages={134--147},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{hayton2007static,
+  title={Static and dynamic novelty detection methods for jet engine health monitoring},
+  author={Hayton, Paul and Utete, Simukai and King, Dennis and King, Steve and Anuzis, Paul and Tarassenko, Lionel},
+  journal={Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences},
+  volume={365},
+  number={1851},
+  pages={493--514},
+  year={2007},
+  publisher={The Royal Society}
+}
+
+@article{He2016ExperienceRS,
+  title={Experience Report: System Log Analysis for Anomaly Detection},
+  author={Shilin He and Jieming Zhu and Pinjia He and Michael R. Lyu},
+  journal={2016 IEEE 27th International Symposium on Software Reliability Engineering (ISSRE)},
+  year={2016},
+  pages={207-218}
+}
+
+@inproceedings{DBLP:conf/bigdataconf/ZhangXMJPZ16,
+  author    = {Ke Zhang and
+               Jianwu Xu and
+               Martin Renqiang Min and
+               Guofei Jiang and
+               Konstantinos Pelechrinis and
+               Hui Zhang},
+  title     = {Automated {IT} system failure prediction: {A} deep learning approach},
+  booktitle = {2016 {IEEE} International Conference on Big Data, BigData 2016, Washington DC, USA, December 5-8, 2016},
+  pages     = {1291--1300},
+  year      = {2016},
+  url       = {https://doi.org/10.1109/BigData.2016.7840733},
+  timestamp = {Thu, 20 Jul 2017 12:20:57 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/bigdataconf/ZhangXMJPZ16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@misc{tensorflow2015-whitepaper,
+title={ {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+url={https://www.tensorflow.org/},
+note={Software available from tensorflow.org},
+author={
+    Mart\'{\i}n~Abadi and
+    Ashish~Agarwal and
+    Paul~Barham and
+    Eugene~Brevdo and
+    Zhifeng~Chen and
+    Craig~Citro and
+    Greg~S.~Corrado and
+    Andy~Davis and
+    Jeffrey~Dean and
+    Matthieu~Devin and
+    Sanjay~Ghemawat and
+    Ian~Goodfellow and
+    Andrew~Harp and
+    Geoffrey~Irving and
+    Michael~Isard and
+    Yangqing Jia and
+    Rafal~Jozefowicz and
+    Lukasz~Kaiser and
+    Manjunath~Kudlur and
+    Josh~Levenberg and
+    Dandelion~Man\'{e} and
+    Rajat~Monga and
+    Sherry~Moore and
+    Derek~Murray and
+    Chris~Olah and
+    Mike~Schuster and
+    Jonathon~Shlens and
+    Benoit~Steiner and
+    Ilya~Sutskever and
+    Kunal~Talwar and
+    Paul~Tucker and
+    Vincent~Vanhoucke and
+    Vijay~Vasudevan and
+    Fernanda~Vi\'{e}gas and
+    Oriol~Vinyals and
+    Pete~Warden and
+    Martin~Wattenberg and
+    Martin~Wicke and
+    Yuan~Yu and
+    Xiaoqiang~Zheng},
+  year={2015},
+}
+
+
+
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+
+@article{mckinneypandas,
+  title={pandas: a Foundational Python Library for Data Analysis and Statistics},
+  author={McKinney, Wes}
+}
+
+
+
+
+@InProceedings{10.1007/978-3-642-40450-441,
+author="Fichtenberger, Hendrik
+and Gill{\'e}, Marc
+and Schmidt, Melanie
+and Schwiegelshohn, Chris
+and Sohler, Christian",
+editor="Bodlaender, Hans L.
+and Italiano, Giuseppe F.",
+title="BICO: BIRCH Meets Coresets for k-Means Clustering",
+booktitle="Algorithms -- ESA 2013",
+year="2013",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="481--492",
+abstract="We design a data stream algorithm for the k-means problem, called BICO, that combines the data structure of the SIGMOD Test of Time award winning algorithm BIRCH [27] with the theoretical concept of coresets for clustering problems. The k-means problem asks for a set C of k centers minimizing the sum of the squared distances from every point in a set P to its nearest center in C. In a data stream, the points arrive one by one in arbitrary order and there is limited storage space.",
+isbn="978-3-642-40450-4"
+}
+
+
+
+@inproceedings{dean2012ubl,
+  title={Ubl: Unsupervised behavior learning for predicting performance anomalies in virtualized cloud systems},
+  author={Dean, Daniel Joseph and Nguyen, Hiep and Gu, Xiaohui},
+  booktitle={Proceedings of the 9th international conference on Autonomic computing},
+  pages={191--200},
+  year={2012},
+  organization={ACM}
+}
+
+@INPROCEEDINGS{7830676, 
+author={A. Bhattacharyya and S. A. J. Jandaghi and S. Sotiriadis and C. Amza}, 
+booktitle={2016 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)}, 
+title={Semantic Aware Online Detection of Resource Anomalies on the Cloud}, 
+year={2016}, 
+volume={}, 
+number={}, 
+pages={134-143}, 
+keywords={cloud computing;learning (artificial intelligence);neural nets;pattern recognition;semantic aware online detection;resource anomaly detection;cloud computing;hardware resource management;cloud environment;application performance degradation;quality of service;neural network learning;pattern recognition;machine learning technique;feedback directed scheme;Monitoring;Context;Cloud computing;Semantics;Throughput;Pattern recognition;Delays}, 
+ISSN={2330-2186}, 
+month={Dec},}
+
+@inproceedings{sauvanaud2016anomaly,
+  title={Anomaly detection and root cause localization in virtual network functions},
+  author={Sauvanaud, Carla and Lazri, Kahina and Ka{\^a}niche, Mohamed and Kanoun, Karama},
+  booktitle={Software Reliability Engineering (ISSRE), 2016 IEEE 27th International Symposium on},
+  pages={196--206},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{ahmed2016survey,
+  title={A survey of network anomaly detection techniques},
+  author={Ahmed, Mohiuddin and Mahmood, Abdun Naser and Hu, Jiankun},
+  journal={Journal of Network and Computer Applications},
+  volume={60},
+  pages={19--31},
+  year={2016},
+  publisher={Elsevier}
+}
+
+
+
+
+@article{sambasivan2014so,
+  title={So, you want to trace your distributed system? Key design insights from years of practical experience},
+  author={Sambasivan, Raja R and Fonseca, Rodrigo and Shafer, Ilari and Ganger, Gregory R}
+}
+
+
+
+
+
+@article{phua2004minority,
+  title={Minority report in fraud detection: classification of skewed data},
+  author={Phua, Clifton and Alahakoon, Damminda and Lee, Vincent},
+  journal={Acm sigkdd explorations newsletter},
+  volume={6},
+  number={1},
+  pages={50--59},
+  year={2004},
+  publisher={ACM}
+}
+
+@inproceedings{Vilalta:2002:PRE:844380.844743,
+ author = {Vilalta, Ricardo and Ma, Sheng},
+ title = {Predicting Rare Events In Temporal Domains},
+ booktitle = {Proceedings of the 2002 IEEE International Conference on Data Mining},
+ series = {ICDM '02},
+ year = {2002},
+ isbn = {0-7695-1754-4},
+ pages = {474--},
+ url = {http://dl.acm.org/citation.cfm?id=844380.844743},
+ acmid = {844743},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+} 
+
+
+
+@inproceedings{kohonen1997exploration,
+  title={Exploration of very large databases by self-organizing maps},
+  author={Kohonen, Teuvo},
+  booktitle={Proceedings of International Conference on Neural Networks (ICNN'97)},
+  volume={1},
+  pages={PL1--PL6},
+  year={1997},
+  organization={IEEE}
+}
+
+
+@article{fawaz2018deep,
+  title={Deep learning for time series classification: a review},
+  author={Fawaz, Hassan Ismail and Forestier, Germain and Weber, Jonathan and Idoumghar, Lhassane and Muller, Pierre-Alain},
+  journal={arXiv preprint arXiv:1809.04356},
+  year={2018}
+}
+
+
+@inproceedings{lu2018cloudraid,
+  title={CloudRaid: hunting concurrency bugs in the cloud via log-mining},
+  author={Lu, Jie and Li, Feng and Li, Lian and Feng, Xiaobing},
+  booktitle={Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={3--14},
+  year={2018},
+  organization={ACM}
+}
+
+@article{Pascanu2015MalwareCW,
+  title={Malware classification with recurrent networks},
+  author={Razvan Pascanu and Jack W. Stokes and Hermineh Sanossian and Mady Marinescu and Anil Thomas},
+  journal={2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2015},
+  pages={1916-1920}
+}
+
+
+@article{wu2016google,
+  title={Google’s multilingual neural machine translation system: Enabling zero-shot translation},
+  author={Johnson, Melvin and Schuster, Mike and Le, Quoc V and Krikun, Maxim and Wu, Yonghui and Chen, Zhifeng and Thorat, Nikhil and Vi{\'e}gas, Fernanda and Wattenberg, Martin and Corrado, Greg and others},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={5},
+  pages={339--351},
+  year={2017},
+  publisher={MIT Press}
+}
+
+@inproceedings{venugopalan2015sequence,
+  title={Sequence to sequence-video to text},
+  author={Venugopalan, Subhashini and Rohrbach, Marcus and Donahue, Jeffrey and Mooney, Raymond and Darrell, Trevor and Saenko, Kate},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={4534--4542},
+  year={2015}
+}
+
+@inproceedings{sundermeyer2012lstm,
+  title={LSTM neural networks for language modeling},
+  author={Sundermeyer, Martin and Schl{\"u}ter, Ralf and Ney, Hermann},
+  booktitle={Thirteenth annual conference of the international speech communication association},
+  year={2012}
+}
+
+@inproceedings{bontemps2016collective,
+  title={Collective anomaly detection based on long short-term memory recurrent neural networks},
+  author={Bontemps, Lo{\"\i}c and McDermott, James and Le-Khac, Nhien-An and others},
+  booktitle={International Conference on Future Data and Security Engineering},
+  pages={141--152},
+  year={2016},
+  organization={Springer}
+}
+
+@inproceedings{yang2016hierarchical,
+  title={Hierarchical attention networks for document classification},
+  author={Yang, Zichao and Yang, Diyi and Dyer, Chris and He, Xiaodong and Smola, Alex and Hovy, Eduard},
+  booktitle={Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  pages={1480--1489},
+  year={2016}
+}
+
+
+@book{beyer2016site,
+  title={Site Reliability Engineering: How Google Runs Production Systems},
+  author={Beyer, Betsy and Jones, Chris and Petoff, Jennifer and Murphy, Niall Richard},
+  year={2016},
+  publisher={" O'Reilly Media, Inc."}
+}
+
+@INPROCEEDINGS{8605760, 
+author={F. {Schmidt} and F. {Suri-Payer} and A. {Gulenko} and M. {Wallschläger} and A. {Acker} and O. {Kao}}, 
+booktitle={2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)}, 
+title={Unsupervised Anomaly Event Detection for Cloud Monitoring Using Online Arima}, 
+year={2018}, 
+pages={71-76}, 
+month={Dec},}
+
+
+
+
+@misc{RepTrace,
+    title={Transparently Capturing Request Execution Path for Anomaly Detection},
+    author={Yong Yang and Long Wang and Jing Gu and Ying Li},
+    year={2020},
+    eprint={2001.07276},
+    archivePrefix={arXiv},
+    primaryClass={cs.DC}
+}
+
+
+@book{hawkins1980identification,
+  title={Identification of Outliers},
+  author={Hawkins, Douglas M},
+  volume={11},
+  year={1980},
+  publisher={Springer}
+}
+
+@INPROCEEDINGS{doelitzscheranomalyclouds,
+  author={Frank {Doelitzscher} and Martin {Knahl} and Christoph {Reich} and Nathan {Clarke}},
+  booktitle={In the Proceedings of the 5th IEEE International Conference on Cloud Computing Technology and Science}, 
+  title={Anomaly Detection in IaaS Clouds}, 
+  year={2013},
+  volume={1},
+  number={},
+  pages={387-394},}
+  
+  
+@inproceedings{yeanomalycloud,
+author = {Ye, Kejiang},
+title = {Anomaly Detection in Clouds: Challenges and Practice},
+year = {2017},
+publisher = {Association for Computing Machinery},
+booktitle = {Proceedings of the First Workshop on Emerging Technologies for Software-Defined and Reconfigurable Hardware-Accelerated Cloud Datacenters},
+articleno = {6},
+numpages = {2},
+series = {ETCD’17}
+}
+  
+  
+@article{yan2015software,
+  title={Software-defined networking (SDN) and distributed denial of service (DDoS) attacks in cloud computing environments: A survey, some research issues, and challenges},
+  author={Yan, Qiao and Yu, F Richard and Gong, Qingxiang and Li, Jianqiang},
+  journal={IEEE communications surveys \& tutorials},
+  volume={18},
+  number={1},
+  pages={602--622},
+  year={2015},
+  publisher={IEEE}
+}
+
+
+@inproceedings{theiler2003resampling,
+  title={Resampling Approach for Anomaly Detection in Multispectral Images},
+  author={Theiler, James P and Cai, D Michael},
+  booktitle={Algorithms and Technologies for Multispectral, Hyperspectral, and Ultraspectral Imagery IX},
+  volume={5093},
+  pages={230--240},
+  year={2003},
+  organization={International Society for Optics and Photonics}
+}
+
+
+
+@book{tanenbaum2007distributed,
+  title={Distributed Systems: Principles and Paradigms},
+  author={Tanenbaum, Andrew S and Van Steen, Maarten},
+  year={2007},
+  publisher={Prentice-Hall}
+}
+
+@article{abrams2008service,
+  title={Service-Oriented Architecture Overview and Guide to SOA Research},
+  author={Abrams, Charles and Schulte, Roy W.},
+  journal={Gartner Research},
+  year={2008}
+}
+
+@misc{observability2020practical,
+  title = {A Practical Observability Primer},
+  howpublished = {\url{https://www.mstakx.com/wp-content/uploads/2018/09/A-Practical-Observability-Primer-1.pdf}},
+  note = {Accessed: 2020-08-29}
+}
+
+@inproceedings{hassan2008industrial,
+  title={An Industrial Case Study of Customizing Operational Profiles Using Log Compression},
+  author={Hassan, Ahmed E and Martin, Daryl J and Flora, Parminder and Mansfield, Paul and Dietz, Dave},
+  booktitle={Proceedings of the 30th International Conference on Software Engineering (ICSE)},
+  pages={713--723},
+  year={2008}
+}
+
+@inproceedings{nagappan2009efficiently,
+  title={Efficiently Extracting Operational Profiles from Execution Logs Using Suffix Arrays},
+  author={Nagappan, Meiyappan and Wu, Kesheng and Vouk, Mladen A},
+  booktitle={Proceedings of the 20th International Symposium on Software Reliability Engineering (ISSRE)},
+  pages={41--50},
+  year={2009},
+  organization={IEEE}
+}
+
+@book{jiang2013automated,
+  title={Automated Analysis of Load Testing Results},
+  author={Jiang, Zhen Ming},
+  year={2013},
+  publisher={Queen's University (Canada)}
+}
+
+@article{Yuan2019AnAT,
+  title={An Approach to Cloud Execution Failure Diagnosis Based on Exception Logs in OpenStack},
+  author={Yue Yuan and Wenchang Shi and Bin Liang and Bo Qin},
+  journal={2019 IEEE 12th International Conference on Cloud Computing (CLOUD)},
+  year={2019},
+  pages={124-131}
+}
+
+@inproceedings{zhou2019latent,
+  title={Latent Error Prediction and Fault Localization for Microservice Applications by Learning from System Trace Logs},
+  author={Zhou, Xiang and Peng, Xin and Xie, Tao and Sun, Jun and Ji, Chao and Liu, Dewei and Xiang, Qilin and He, Chuan},
+  booktitle={Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={683--694},
+  year={2019}
+}
+
+@inproceedings{chen2019empirical,
+author = {Chen, An Ran},
+title = {An Empirical Study on Leveraging Logs for Debugging Production Failures},
+year = {2019},
+publisher = {IEEE},
+abstract = {In modern software development, maintenance is one of the most expensive processes. When end-users encounter software defects, they report the bug to developers by specifying the expected behavior and error messages (e.g., log message). Then, they wait for a bug fix from the developers. However, on the developers' side, it can be very challenging and expensive to debug the problem. To fix the bugs, developers often have to play the role of detectives: seeking clues in the user-reported logs files or stack trace in a snapshot of specific system execution. This debugging process may take several hours or even days.In this paper, we first look at the usefulness of the user-reported logs. Then, we propose an automated approach to assist the debugging process by reconstructing the execution path. Through the analysis, our investigation shows that 31% of the time, developer further requests logs from the reporter. Moreover, our preliminary results show that the reconducted path illustrates the user's execution. We believe that our approach proposes a novel solution in debugging production failures.},
+booktitle = {Proceedings of the 41st International Conference on Software Engineering: Companion Proceedings (ICSE)},
+pages = {126–128},
+numpages = {3},
+keywords = {mining software repository data, events log, production errors, static analysis}
+}
+
+@inproceedings{zhang2017pensieve,
+  title={Pensieve: Non-Intrusive Failure Reproduction for Distributed Systems Using the Event Chaining Approach},
+  author={Zhang, Yongle and Makarov, Serguei and Ren, Xiang and Lion, David and Yuan, Ding},
+  booktitle={Proceedings of the 26th Symposium on Operating Systems Principles},
+  pages={19--33},
+  year={2017}
+}
+
+@inproceedings{zhao2016non,
+  title={Non-Intrusive Performance Profiling for Entire Software Stacks Based on the Flow Reconstruction Principle},
+  author={Zhao, Xu and Rodrigues, Kirk and Luo, Yu and Yuan, Ding and Stumm, Michael},
+  booktitle={12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16)},
+  pages={603--618},
+  year={2016}
+}
+
+@inproceedings{mohan2018finding,
+  title={Finding Crash-Consistency Bugs with Bounded Black-Box Crash Testing},
+  author={Mohan, Jayashree and Martinez, Ashlie and Ponnapalli, Soujanya and Raju, Pandian and Chidambaram, Vijay},
+  booktitle={Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18)},
+  pages={33--50},
+  year={2018}
+}
+
+@inproceedings{bao2019miningworkflows,
+author = {Bao, Lingfeng and Busany, Nimrod and Lo, David and Maoz, Shahar},
+title = {Statistical Log Differencing},
+year = {2019},
+publisher = {IEEE},
+abstract = {Recent works have considered the problem of log differencing: given two or more system's execution logs, output a model of their differences. Log differencing has potential applications in software evolution, testing, and security.In this paper we present statistical log differencing, which accounts for frequencies of behaviors found in the logs. We present two algorithms, s2KDiff for differencing two logs, and snKDiff, for differencing of many logs at once, both presenting their results over a single inferred model. A unique aspect of our algorithms is their use of statistical hypothesis testing: we let the engineer control the sensitivity of the analysis by setting the target distance between probabilities and the statistical significance value, and report only (and all) the statistically significant differences.Our evaluation shows the effectiveness of our work in terms of soundness, completeness, and performance. It also demonstrates its effectiveness compared to previous work via a user-study and its potential applications via a case study using real-world logs.},
+booktitle = {Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering},
+pages = {851–862},
+numpages = {12}
+}
+
+@phdthesis{shang2014log,
+  title={Log Engineering: Towards Systematic Log Mining to Support the Development of Ultra-Large Scale Systems},
+  author={Shang, Weiyi}
+}
+
+@misc{pang2020deep,
+  title={Deep Learning for Anomaly Detection: A Review},
+  author={Pang, Guansong and Shen, Chunhua and Cao, Longbing and Hengel, Anton van den},
+  eprint={2007.02500},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2020}
+}
+
+@inproceedings{breunig2000lof,
+  title={LOF: Identifying Density-Based Local Outliers},
+  author={Breunig, Markus M and Kriegel, Hans-Peter and Ng, Raymond T and Sander, J{\"o}rg},
+  booktitle={Proceedings of the 2000 International Conference on Management of Data (ACM SIGMOD)},
+  pages={93--104},
+  year={2000}
+}
+
+@article{campos2016evaluation,
+  title={On the Evaluation of Unsupervised Outlier Detection: Measures, Datasets, and an Empirical Study},
+  author={Campos, Guilherme O and Zimek, Arthur and Sander, J{\"o}rg and Campello, Ricardo JGB and Micenkov{\'a}, Barbora and Schubert, Erich and Assent, Ira and Houle, Michael E},
+  journal={Data Mining and Knowledge Discovery},
+  volume={30},
+  number={4},
+  pages={891--927},
+  year={2016},
+  publisher={Springer}
+}
+
+
+@misc{chalapathy2019deep,
+    title={Deep Learning for Anomaly Detection: A Survey},
+    author={Raghavendra Chalapathy and Sanjay Chawla},
+    year={2019},
+    eprint={1901.03407},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
+@article{crameri2007staged,
+  title={Staged Deployment in Mirage, an Integrated Software Upgrade Testing and Distribution System},
+  author={Crameri, Olivier and Knezevic, Nikola and Kostic, Dejan and Bianchini, Ricardo and Zwaenepoel, Willy},
+  journal={ACM SIGOPS Operating Systems Review},
+  volume={41},
+  number={6},
+  pages={221--236},
+  year={2007},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{gunawi2014bugs,
+  title={What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems},
+  author={Gunawi, Haryadi S and Hao, Mingzhe and Leesatapornwongsa, Tanakorn and Patana-anake, Tiratat and Do, Thanh and Adityatama, Jeffry and Eliazar, Kurnia J and Laksono, Agung and Lukman, Jeffrey F and Martin, Vincentius and others},
+  booktitle={Proceedings of the ACM Symposium on Cloud Computing},
+  pages={1--14},
+  year={2014}
+}
+
+@inproceedings{yuan2014simple,
+  title={Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems},
+  author={Yuan, Ding and Luo, Yu and Zhuang, Xin and Rodrigues, Guilherme Renna and Zhao, Xu and Zhang, Yongle and Jain, Pranay U and Stumm, Michael},
+  booktitle={11th USENIX Symposium on Operating Systems Design and Implementation (OSDI 14)},
+  pages={249--265},
+  year={2014}
+}
+
+@article{jolliffe2016principal,
+  title={Principal Component Analysis: A Review and Recent Developments},
+  author={Jolliffe, Ian T and Cadima, Jorge},
+  journal={Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+  volume={374},
+  number={2065},
+  pages={20150202},
+  year={2016},
+  publisher={The Royal Society Publishing}
+}
+
+
+@inproceedings{cotroneo2019bad,
+  title={How Bad Can a Bug Get? An Empirical Analysis of Software Failures in the OpenStack Cloud Computing Platform},
+  author={Cotroneo, Domenico and De Simone, Luigi and Liguori, Pietro and Natella, Roberto and Bidokhti, Nematollah},
+  booktitle={Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={200--211},
+  year={2019}
+}
+
+@misc{sillito2020failures,
+      title={Failures and Fixes: A Study of Software System Incident Response}, 
+      author={Jonathan Sillito and Esdras Kutomi},
+      year={2020},
+      eprint={2008.11192},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+
+@article{shahin2017continuous,
+  title={Continuous Integration, Delivery and Deployment: A Systematic Review on Approaches, Tools, Challenges and Practices},
+  author={Shahin, Mojtaba and Babar, Muhammad Ali and Zhu, Liming},
+  journal={IEEE Access},
+  volume={5},
+  pages={3909--3943},
+  year={2017},
+  publisher={IEEE}
+}
+
+@article{hinton2006reducing,
+  title={Reducing the Dimensionality of Data with Neural Networks},
+  author={Hinton, Geoffrey E and Salakhutdinov, Ruslan R},
+  journal={science},
+  volume={313},
+  number={5786},
+  pages={504--507},
+  year={2006},
+  publisher={American Association for the Advancement of Science}
+}
+
+@phdthesis{jungnickel2018feasibility,
+  title={On the Feasibility of Multi-Leader Replication in the Early Tiers},
+  author={Jungnickel, Tim},
+  volume={11},
+  year={2018},
+  publisher={Universit{\"a}tsverlag der TU Berlin}
+}
+
+@book{newman2015building,
+  title={Building Microservices: Designing Fine-Grained Systems},
+  author={Newman, Sam},
+  year={2015},
+  publisher={O'Reilly Media, Inc.}
+}
+
+@article{malkawi2013art,
+  title={The Art of Software Systems Development: Reliability, Availability, Maintainability, Performance (RAMP)},
+  author={Malkawi, Mohammad Isam},
+  journal={Human-Centric Computing and Information Sciences},
+  volume={3},
+  number={1},
+  pages={22},
+  year={2013},
+  publisher={Springer}
+}
+
+@inproceedings{schmidt2018iftm,
+  title={IFTM - Unsupervised Anomaly Detection for Virtualized Network Function Services},
+  author={Schmidt, Florian and Gulenko, Anton and Wallschl{\"a}ger, Marcel and Acker, Alexander and Hennig, Vincent and Liu, Feng and Kao, Odej},
+  booktitle={Proceedings of the 2018 IEEE International Conference on Web Services (ICWS)},
+  pages={187--194},
+  year={2018},
+  organization={IEEE}
+}
+
+@inproceedings{act2002sarbanes,
+  title={Sarbanes-oxley act of 2002},
+  author={Sarbanes, Paul and Oxley, Michael},
+  booktitle={The Public Company Accounting Reform and Investor Protection Act. Washington DC: US Congress},
+  pages={55},
+  year={2002}
+}
+
+@article{chen2019anomaly,
+  title={Anomaly Detection on Golden Signals},
+  author={Chen, Yu},
+  booktitle={SREcon19 Asia/Pacific},
+  year={2019}
+}
+
+@misc{appoptics, title={Four Golden Signals for Monitoring Distributed Systems}, howpublished={\url{https://blog.appoptics.com/the-four-golden-signals-for-monitoring-distributed-systems/}}, journal={AppOptics Blog}, year={Accessed 2020-10-25}}
+
+
+@inproceedings{dang2019aiops,
+  title={AIOps: Real-World Challenges and Research Innovations},
+  author={Dang, Yingnong and Lin, Qingwei and Huang, Peng},
+  booktitle={Proceedings of the 2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE-Companion)},
+  pages={4--5},
+  year={2019},
+  organization={IEEE}
+}
+
+@misc{gartnerinc, title={Definition of AIOps (Artificial Intelligence for IT Operations) - Gartner Information Technology Glossary}, howpublished={\url{https://www.gartner.com/en/information-technology/glossary/aiops-artificial-intelligence-operations}}, 
+journal={Gartner}, year={Accessed 2020-11-15}}
+
+@article{futurescape2018worldwide,
+  title={Worldwide CIO Agenda 2019 Predictions},
+  author={FutureScape, IDC},
+  journal={doc\# US44390218, October},
+  year={2018}
+}
+
+@misc{fraenkel2004root,
+  title={Root Cause Analysis of Server System Performance Degradations},
+  author={Fraenkel, Noam A and Goldstein, Guy and Sarig, Ido and Haddad, Refael},
+  year={2004},
+  month=May,
+  publisher={Google Patents},
+  note={US Patent 6,738,933}
+}
+
+@article{dalal2013empirical,
+  title={Empirical Study of Root Cause Analysis of Software Failure},
+  author={Dalal, Sandeep and Chhillar, Rajender Singh},
+  journal={ACM SIGSOFT Software Engineering Notes},
+  volume={38},
+  number={4},
+  pages={1--7},
+  year={2013},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{sidiroglou2009assure,
+  title={Assure: Automatic Software Self-Healing Using Rescue Points},
+  author={Sidiroglou, Stelios and Laadan, Oren and Perez, Carlos and Viennot, Nicolas and Nieh, Jason and Keromytis, Angelos D},
+  journal={ACM SIGARCH Computer Architecture News},
+  volume={37},
+  number={1},
+  pages={37--48},
+  year={2009},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{dashofy2002towards,
+  title={Towards Architecture-Based Self-Healing Systems},
+  author={Dashofy, Eric M and Van der Hoek, Andr{\'e} and Taylor, Richard N},
+  booktitle={Proceedings of the 1st Workshop on Self-Healing Systems},
+  pages={21--26},
+  year={2002}
+}
+
+@article{donnet2007internet,
+  title={Internet Topology Discovery: A Survey},
+  author={Donnet, Benoit and Friedman, Timur},
+  journal={IEEE Communications Surveys \& Tutorials},
+  volume={9},
+  number={4},
+  pages={56--69},
+  year={2007},
+  publisher={IEEE}
+}
+
+@inproceedings{donnet2005efficient,
+  title={Efficient Algorithms for Large-Scale Topology Discovery},
+  author={Donnet, Benoit and Raoult, Philippe and Friedman, Timur and Crovella, Mark},
+  booktitle={Proceedings of the 2005 International Conference on Measurement and Modeling of Computer Systems (ACM SIGMETRICS)},
+  pages={327--338},
+  year={2005}
+}
+
+@inproceedings{donnet2005improved,
+  title={Improved Algorithms for Network Topology discovery},
+  author={Donnet, Benoit and Friedman, Timur and Crovella, Mark},
+  booktitle={International Workshop on Passive and Active Network Measurement},
+  pages={149--162},
+  year={2005},
+  organization={Springer}
+}
+
+@misc{gartnermarketguide, title={Market Guide for AIOps Platforms}, howpublished={\url{https://www.gartner.com/en/documents/3971186/market-guide-for-aiops-platforms}}, journal={Gartner}, year={Accessed on 2020-11-15}}
+
+@inproceedings{du2019robust,
+  title={Robust anomaly detection and backdoor attack detection via differential privacy},
+  author={Du, Min and Jia, Ruoxi and Song, Dawn},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2019}
+}
+
+@misc{ruff2020unifying,
+      title={A Unifying Review of Deep and Shallow Anomaly Detection}, 
+      author={Lukas Ruff and Jacob R. Kauffmann and Robert A. Vandermeulen and Grégoire Montavon and Wojciech Samek and Marius Kloft and Thomas G. Dietterich and Klaus-Robert Müller},
+      year={2020},
+      eprint={2009.11732},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@inproceedings{wang2014generalized,
+  title={Generalized Autoencoder: A Neural Network Framework for Dimensionality Reduction},
+  author={Wang, Wei and Huang, Yan and Wang, Yizhou and Wang, Liang},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={490--497},
+  year={2014}
+}
+
+@inproceedings{sakurada2014anomaly,
+  title={Anomaly Detection Using Autoencoders with Nonlinear Dimensionality Reduction},
+  author={Sakurada, Mayu and Yairi, Takehisa},
+  booktitle={Proceedings of the MLSDA 2nd Workshop on Machine Learning for Sensory Data Analysis},
+  pages={4--11},
+  year={2014}
+}
+
+
+@inproceedings{ahmed2019detecting,
+  title={Detecting Semantic Anomalies},
+  author={Ahmed, Faruk and Courville, Aaron},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={34},
+  number={04},
+  pages={3154--3162},
+  year={2020}
+}
+
+@misc{asano2020critical,
+      title={A Critical Analysis of Self-Supervision, or What We Can Learn from a Single Image}, 
+      author={Yuki M. Asano and Christian Rupprecht and Andrea Vedaldi},
+      year={2020},
+      eprint={1904.13132},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@incollection{sallam2019techniques,
+  title={Techniques and Systems for Anomaly Detection in Database Systems},
+  author={Sallam, Asmaa and Bertino, Elisa},
+  booktitle={Policy-Based Autonomic Data Governance},
+  pages={113--133},
+  year={2019},
+  publisher={Springer}
+}
+
+@article{contreras2003arima,
+  title={ARIMA models to predict next-day electricity prices},
+  author={Contreras, Javier and Espinola, Rosario and Nogales, Francisco J and Conejo, Antonio J},
+  journal={IEEE transactions on power systems},
+  volume={18},
+  number={3},
+  pages={1014--1020},
+  year={2003},
+  publisher={IEEE}
+}
+
+@article{chatfield1978holt,
+  title={The Holt-winters forecasting procedure},
+  author={Chatfield, Chris},
+  journal={Journal of the Royal Statistical Society: Series C (Applied Statistics)},
+  volume={27},
+  number={3},
+  pages={264--279},
+  year={1978},
+  publisher={Wiley Online Library}
+}
+
+@article{cleveland1990stl,
+  title={STL: A seasonal-trend decomposition},
+  author={Cleveland, Robert B and Cleveland, William S and McRae, Jean E and Terpenning, Irma},
+  journal={Journal of official statistics},
+  volume={6},
+  number={1},
+  pages={3--73},
+  year={1990}
+}
+
+@inproceedings{acker2018patternclassification,
+  author    = {Alexander Acker and
+               Florian Schmidt and
+               Anton Gulenko and
+               Odej Kao},
+  title     = {Online Density Grid Pattern Analysis to Classify Anomalies in Cloud
+               and {NFV} Systems},
+  booktitle = {2018 {IEEE} International Conference on Cloud Computing Technology
+               and Science, CloudCom 2018, Nicosia, Cyprus, December 10-13, 2018},
+  pages     = {290--295},
+  publisher = {{IEEE} Computer Society},
+  year      = {2018},
+  url       = {https://doi.org/10.1109/CloudCom2018.2018.00063},
+  timestamp = {Fri, 08 May 2020 10:17:28 +0200},
+  biburl    = {https://dblp.org/rec/conf/cloudcom/AckerSGK18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{aggarwallocalization,
+  title={Localization of Operational Faults in Cloud Applications by Mining Causal Dependencies in Logs using Golden Signals},
+  author={Aggarwal, Pooja and Gupta, Ajay and Mohapatra, Prateeti and Nagar, Seema and Mandal, Atri and Wang, Qing and Paradkar, Amit}
+}
+
+@article{jordan1999introduction,
+  title={An Introduction to Variational Methods for Graphical Models},
+  author={Jordan, Michael I and Ghahramani, Zoubin and Jaakkola, Tommi S and Saul, Lawrence K},
+  journal={Machine Learning},
+  volume={37},
+  number={2},
+  pages={183--233},
+  year={1999},
+  publisher={Springer}
+}
+
+@inproceedings{bowman2015generating,
+    title = "Generating Sentences from a Continuous Space",
+    author = "Bowman, Samuel R.  and
+      Vilnis, Luke  and
+      Vinyals, Oriol  and
+      Dai, Andrew  and
+      Jozefowicz, Rafal  and
+      Bengio, Samy",
+    booktitle = "Proceedings of The 20th Conference on Computational Natural Language Learning (SIGNLL)",
+    year = "2016",
+    pages = "10--21",
+}
+
+
+@article{radford2015unsupervised,
+  title={Unsupervised representation learning with deep convolutional generative adversarial networks},
+  author={Radford, Alec and Metz, Luke and Chintala, Soumith},
+  journal={arXiv preprint arXiv:1511.06434},
+  year={2015}
+}
+
+@article{lee2012unified,
+  title={The unified logging infrastructure for data analytics at Twitter},
+  author={Lee, George and Lin, Jimmy and Liu, Chuang and Lorek, Andrew and Ryaboy, Dmitriy},
+  journal={arXiv preprint arXiv:1208.4171},
+  year={2012}
+}
+
+@inproceedings{oprea2015detection,
+  title={Detection of early-stage enterprise infection by mining large-scale log data},
+  author={Oprea, Alina and Li, Zhou and Yen, Ting-Fang and Chin, Sang H and Alrwais, Sumayah},
+  booktitle={2015 45th Annual IEEE/IFIP International Conference on Dependable Systems and Networks},
+  pages={45--56},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{chow2014mystery,
+  title={The Mystery Machine: End-to-End Performance Analysis of Large-Scale Internet Services},
+  author={Chow, Michael and Meisner, David and Flinn, Jason and Peek, Daniel and Wenisch, Thomas F},
+  booktitle={Proceedings of the 11th USENIX Symposium on Operating Systems Design and Implementation (OSDI 14)},
+  pages={217--231},
+  year={2014}
+}
+
+@inproceedings{nagaraj2012structured,
+  title={Structured comparative analysis of systems logs to diagnose performance problems},
+  author={Nagaraj, Karthik and Killian, Charles and Neville, Jennifer},
+  booktitle={Presented as part of the 9th USENIX Symposium on Networked Systems Design and Implementation (NSDI 12)},
+  pages={353--366},
+  year={2012}
+}
+
+@inproceedings{yuan2010sherlog,
+  title={SherLog: error diagnosis by connecting clues from run-time logs},
+  author={Yuan, Ding and Mai, Haohui and Xiong, Weiwei and Tan, Lin and Zhou, Yuanyuan and Pasupathy, Shankar},
+  booktitle={Proceedings of the fifteenth International Conference on Architectural support for programming languages and operating systems},
+  pages={143--154},
+  year={2010}
+}
+
+@article{oliner2012advances,
+  title={Advances and challenges in log analysis},
+  author={Oliner, Adam and Ganapathi, Archana and Xu, Wei},
+  journal={Communications of the ACM},
+  volume={55},
+  number={2},
+  pages={55--61},
+  year={2012},
+  publisher={ACM New York, NY, USA}
+}
+
+@book{gornitz2019one,
+  title={One-Class Classification in the Presence of Point, Collective, and Contextual Anomalies},
+  author={G{\"o}rnitz, Nico},
+  year={2019}
+}
+
+
+@book{turnbull2018monitoring,
+  title={Monitoring with Prometheus},
+  author={Turnbull, James},
+  year={2018},
+  publisher={Turnbull Press}
+}
+
+
+@article{filonov2016multivariate,
+  title={Multivariate Industrial Time Series with Cyber-Attack Simulation: Fault Detection Using an LSTM-Based Predictive Data Model},
+  author={Filonov, Pavel and Lavrentyev, Andrey and Vorontsov, Artem},
+  journal={arXiv preprint arXiv:1612.06676},
+  year={2016}
+}
+
+@inproceedings{fraccaro2016sequential,
+  title={Sequential Neural Models with Stochastic Layers},
+  author={Fraccaro, Marco and S{\o}nderby, S{\o}ren Kaae and Paquet, Ulrich and Winther, Ole},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={2199--2207},
+  year={2016}
+}
+
+@inproceedings{zong2018deep,
+  title={Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection},
+  author={Zong, Bo and Song, Qi and Min, Martin Renqiang and Cheng, Wei and Lumezanu, Cristian and Cho, Daeki and Chen, Haifeng},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2018}
+}
+
+@incollection{eskin2002geometric,
+  title={A geometric framework for unsupervised anomaly detection},
+  author={Eskin, Eleazar and Arnold, Andrew and Prerau, Michael and Portnoy, Leonid and Stolfo, Sal},
+  booktitle={Applications of data mining in computer security},
+  pages={77--101},
+  year={2002},
+  publisher={Springer}
+}
+
+@book{zadrozny2013big,
+  title={Big Data Analytics Using Splunk: Deriving Operational Intelligence from Social Media, Machine Data, Existing Data Warehouses, and Other Real-Time Streaming Sources},
+  author={Zadrozny, Peter and Kodali, Raghu},
+  year={2013},
+  publisher={Apress}
+}
+
+@misc{bansal2015conducting,
+  title={Conducting a Diagnostic Session for Monitored Business Transactions},
+  author={Bansal, Jyoti and Sunkara, Bhaskar},
+  year={2015},
+  publisher={Google Patents},
+  note={US Patent 9,015,317}
+}
+
+@misc{bansal2015automatic,
+  title={Automatic Capture of Diagnostic Data Based on Transaction Behavior Learning},
+  author={Bansal, Jyoti and Sunkara, Bhaskar},
+  year={2015},
+  publisher={Google Patents},
+  note={US Patent 8,938,533}
+}
+
+@misc{bansal2015monitoring,
+  title={Monitoring Distributed Web Application Transactions},
+  author={Bansal, Jyoti and Sunkara, Bhaskar},
+  year={2015},
+  publisher={Google Patents},
+  note={US Patent 9,167,028}
+}
+
+@misc{tee2016system,
+  title={System for Decomposing Events from Managed Infrastructures Using a Topology Proximity Engine, Graph Topologies, and K-Means Clustering},
+  author={Tee, Philip and Harper, Robert Duncan and Silvey, Charles Mike},
+  year={2016},
+  publisher={Google Patents},
+  note={US Patent 9,529,890}
+}
+
+@misc{tee2017alert,
+  title={Alert Dashboard System and Method from Event Clustering},
+  author={Tee, Philip and Harper, Robert Duncan and Silvey, Charles Mike and Leonard, Andrew John and Townsend, Jeffrey Ellison},
+  year={2017},
+  publisher={Google Patents},
+  note={US Patent 9,607,074}
+}
+
+
+@article{hochreiter1998vanishing,
+  title={The Vanishing Gradient Problem During Learning Recurrent Neural Nets and Problem Solutions},
+  author={Hochreiter, Sepp},
+  journal={International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems},
+  volume={6},
+  number={02},
+  pages={107--116},
+  year={1998},
+  publisher={World Scientific}
+}
+
+@misc{weaveworks2018sock,
+  title={Sock Shop--A Microservices Demo Application},
+  author={Weaveworks, Inc},
+  howpublished={\url{https://microservices-demo.github.io/deployment/micro-sock.html}},
+  year={Accessed on 2020-09-10}
+}
+
+@article{esposito2016challenges,
+  title={Challenges in Delivering Software in the Cloud as Microservices},
+  author={Esposito, Christian and Castiglione, Aniello and Choo, Kim-Kwang Raymond},
+  journal={IEEE Cloud Computing},
+  volume={3},
+  number={5},
+  pages={10--14},
+  year={2016},
+  publisher={IEEE}
+}
+
+@book{brockwell1991time,
+  title={Time Series: Theory and Methods},
+  author={Brockwell, Peter J and Davis, Richard A and Fienberg, Stephen E},
+  year={1991},
+  publisher={Springer Science \& Business Media}
+}
+
+@inproceedings{wu2020performance,
+  title={Performance Diagnosis in Cloud Microservices using Deep Learning},
+  author={Wu, Li and Bogatinovski, Jasmin and Nedelkoski, Sasho and Tordsson, Johan and Kao, Odej},
+  booktitle={AIOPS 2020-International Workshop on Artificial Intelligence for IT Operations},
+  year={2020}
+}
+
+@inproceedings{meng2020localizing,
+  title={Localizing Failure Root Causes in A Microservice Through Causality Inference},
+  author={Meng, Yuan and Zhang, Shenglin and Sun, Yongqian and Zhang, Ruru and Hu, Zhilong and Zhang, Yiyin and Jia, Chenyang and Wang, Zhaogang and Pei, Dan},
+  booktitle={Proceedings of the 28th IEEE/ACM International Symposium on Quality of Service (IWQoS)},
+  pages={1--10},
+  year={2020},
+  organization={IEEE}
+}
+
+@misc{keller2007methods,
+  title={Methods and Apparatus for Topology Discovery and Representation of Distributed Applications and Services},
+  author={Keller, Alexander},
+  year={2007},
+  publisher={Google Patents},
+  note={US Patent 7,240,325}
+}
+
+@article{muntonimining,
+  title={Mining the Architecture of Microservice-Based Applications from their Kubernetes Deployment},
+  author={Muntoni, Giuseppe and Soldani, Jacopo and Brogi, Antonio},
+  booktitle={Proceedings of the 16th International Workshop on Engineering Service-Oriented Applications and Cloud Services (WESOACS 2020)}
+}
+
+@inproceedings{donut,
+  title={Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications},
+  author={Xu, Haowen and Chen, Wenxiao and Zhao, Nengwen and Li, Zeyan and Bu, Jiahao and Li, Zhihan and Liu, Ying and Zhao, Youjian and Pei, Dan and Feng, Yang and others},
+  booktitle={Proceedings of the 2018 World Wide Web Conference on World Wide Web},
+  pages={187--196},
+  year={2018},
+  organization={International World Wide Web Conferences Steering Committee}
+}
+
+@inproceedings{ramos2003using,
+  title={Using TF-IDF to Determine Word Relevance in Document Queries},
+  author={Ramos, Juan and others},
+  booktitle={Proceedings of the 1st Instructional Conference on Machine Learning},
+  volume={242},
+  pages={133--142},
+  year={2003},
+ }
+
+@article{kabinna2018examining,
+  title={Examining the Stability of Logging Statements},
+  author={Kabinna, Suhas and Bezemer, Cor-Paul and Shang, Weiyi and Syer, Mark D and Hassan, Ahmed E},
+  journal={Empirical Software Engineering},
+  volume={23},
+  number={1},
+  pages={290--333},
+  year={2018},
+  publisher={Springer}
+}
+
+@phdthesis{xu2010system,
+  title={System Problem Detection by Mining Console Logs},
+  author={Xu, Wei},
+  year={2010},
+  school={UC Berkeley}
+}
+
+@article{chen2015continuous,
+  title={Continuous Delivery: Huge Benefits, But Challenges Too},
+  author={Chen, Lianping},
+  journal={IEEE Software},
+  volume={32},
+  number={2},
+  pages={50--54},
+  year={2015},
+  publisher={IEEE}
+}
+
+@article{pukelsheim1994three,
+  title={The Three Sigma Rule},
+  author={Pukelsheim, Friedrich},
+  journal={The American Statistician},
+  volume={48},
+  number={2},
+  pages={88--91},
+  year={1994},
+  publisher={Taylor \& Francis Group}
+}
+
+@article{an2015variational,
+  title={Variational Autoencoder-Based Anomaly Detection using Reconstruction Probability},
+  author={An, Jinwon and Cho, Sungzoon},
+  journal={Special Lecture on IE},
+  volume={2},
+  number={1},
+  pages={1--18},
+  year={2015}
+}
+
+@article{huang2020hitanomaly,
+  title={HitAnomaly: Hierarchical Transformers for Anomaly Detection in System Log},
+  author={Huang, Shaohan and Liu, Yi and Fung, Carol and He, Rong and Zhao, Yining and Yang, Hailong and Luan, Zhongzhi},
+  journal={Proceedings of the 2020 IEEE Transactions on Network and Service Management},
+  year={2020},
+  publisher={IEEE}
+}
+
+@incollection{pytorch,
+    title = {PyTorch: An Imperative Style, High-Performance Deep Learning Library},
+    author = {Paszke, Adam and Gross, Sam and et. al.},
+    booktitle = {Advances in Neural Information Processing Systems 32},
+    pages = {8024--8035},
+    year = {2019},
+    publisher = {Curran Associates, Inc.},
+}
+
+
+@inproceedings{liu2020unsupervised,
+  title={Unsupervised Detection of Microservice Trace Anomalies through Service-Level Deep Bayesian Networks},
+  author={Liu, Ping and Xu, Haowen and Ouyang, Qianyu and Jiao, Rui and Chen, Zhekang and Zhang, Shenglin and Yang, Jiahai and Mo, Linlin and Zeng, Jice and Xue, Wenman and others},
+  booktitle={2020 IEEE 31st International Symposium on Software Reliability Engineering (ISSRE)},
+  pages={48--58},
+  year={2020},
+  organization={IEEE}
+}
+
+@article{huang2015bidirectional,
+  title={Bidirectional LSTM-CRF Models for Sequence Tagging},
+  author={Huang, Zhiheng and Xu, Wei and Yu, Kai},
+  eprint={1508.01991},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2015}
+}
+
+
+@inproceedings{farshchi2018contextual,
+  title={Contextual anomaly detection for a critical industrial system based on logs and metrics},
+  author={Farshchi, Mostafa and Weber, Ingo and Della Corte, Raffaele and Pecchia, Antonio and Cinque, Marcello and Schneider, Jean-Guy and Grundy, John},
+  booktitle={2018 14th European Dependable Computing Conference (EDCC)},
+  pages={140--143},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{farshchi2018metric,
+  title={Metric Selection and Anomaly Detection for Cloud Operations Using Log and Metric Correlation Analysis},
+  author={Farshchi, Mostafa and Schneider, Jean-Guy and Weber, Ingo and Grundy, John},
+  journal={Journal of Systems and Software},
+  volume={137},
+  pages={531--549},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@misc{Japan,
+    title={Anomaly Detection and Interpretation using Multimodal Autoencoder and Sparse Optimization},
+    author={Yasuhiro Ikeda and Keisuke Ishibashi and Yuusuke Nakano and Keishiro Watanabe and Ryoichi Kawahara},
+    year={2018},
+    eprint={1812.07136},
+    primaryClass={stat.ML}
+}
+
+@misc{braei2020anomaly,
+      title={Anomaly Detection in Univariate Time-series: A Survey on the State-of-the-Art}, 
+      author={Mohammad Braei and Sebastian Wagner},
+      year={2020},
+      eprint={2004.00433},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{simhon2016heuristic,
+  title={Heuristic Inference of Topological Representation of Metric Relationships},
+  author={SIMHON, Yoni Yom Tov BEN and Cohen, Ira},
+  year={2016},
+  publisher={Google Patents},
+  note={US Patent App. 15/002,260}
+}
+
+@Inbook{Sandilands2014,
+author="Sandilands, Debra (Dallie)",
+editor="Michalos, Alex C.",
+title="Univariate Analysis",
+bookTitle="Encyclopedia of Quality of Life and Well-Being Research",
+year="2014",
+publisher="Springer Netherlands",
+address="Dordrecht",
+pages="6815--6817"
+}
+
+
+
+@InProceedings{toledano18a, title = {Real-time anomaly detection system for time series at scale}, author = {Meir Toledano and Ira Cohen and Yonatan Ben-Simhon and Inbal Tadeski}, booktitle = {Proceedings of the KDD 2017: Workshop on Anomaly Detection in Finance}, pages = {56--65}, year = {2018}, editor = {Archana Anandakrishnan and Senthil Kumar and Alexander Statnikov and Tanveer Faruquie and Di Xu}, volume = {71}, series = {Proceedings of Machine Learning Research}, publisher = {PMLR}, abstract = {This paper describes the design considerations and general outline of an anomaly detection system used by Anodot. We present results of the system on a large set of metrics collected from multiple companies.} }
+
+@inproceedings{acker2017patient,
+  title={Patient-individual morphological anomaly detection in multi-lead electrocardiography data streams},
+  author={Acker, Alexander and Schmidt, Florian and Gulenko, Anton and Kietzmann, Reinhard and Kao, Odej},
+  booktitle={2017 IEEE International Conference on Big Data (Big Data)},
+  pages={3841--3846},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{rosenblatt1956central,
+  title={A central limit theorem and a strong mixing condition},
+  author={Rosenblatt, Murray},
+  journal={Proceedings of the National Academy of Sciences of the United States of America},
+  volume={42},
+  number={1},
+  pages={43},
+  year={1956},
+  publisher={National Academy of Sciences}
+}
+
+@inproceedings{liu2015opprentice,
+  title={Opprentice: Towards practical and automatic anomaly detection through machine learning},
+  author={Liu, Dapeng and Zhao, Youjian and Xu, Haowen and Sun, Yongqian and Pei, Dan and Luo, Jiao and Jing, Xiaowei and Feng, Mei},
+  booktitle={Proceedings of the 2015 Internet Measurement Conference},
+  pages={211--224},
+  year={2015}
+}
+
+@article{taylor1953cloze,
+  title={“Cloze procedure”: A new tool for measuring readability},
+  author={Taylor, Wilson L},
+  journal={Journalism quarterly},
+  volume={30},
+  number={4},
+  pages={415--433},
+  year={1953},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
+@INPROCEEDINGS{imweber2015,
+  author={Ingo {Weber} and Chao {Li} and Len {Bass} and Xiwei {Xu} and Liming {Zhu}},
+  booktitle={2015 45th Annual IEEE/IFIP International Conference on Dependable Systems and Networks}, 
+  title={Discovering and Visualizing Operations Processes with POD-Discovery and POD-Viz}, 
+  year={2015},
+  volume={},
+  number={},
+  pages={537-544}
+  }
+  
+  
+@INPROCEEDINGS{xu2014weber,
+author={X. {Xu} and L. {Zhu} and I. {Weber} and L. {Bass} and D. {Sun}},
+booktitle={2014 44th Annual IEEE/IFIP International Conference on Dependable Systems and Networks}, 
+title={POD-Diagnosis: Error Diagnosis of Sporadic Operations on Cloud Applications}, 
+year={2014},
+volume={},
+number={},
+pages={252-263}
+}
+
+
+@phdthesis{nolle2020process,
+  title={Process Learning for Autonomous Process Anomaly Correction},
+  author={Nolle, Timo},
+  year={2020},
+  publisher={Technische Universitaet Darmstadt}
+}
+
+@article{PECCHIA2020105054,
+title = {Discovering process models for the analysis of application failures under uncertainty of event logs},
+journal = {Knowledge-Based Systems},
+volume = {189},
+pages = {105054},
+year = {2020},
+issn = {0950-7051},
+author = {Antonio Pecchia and Ingo Weber and Marcello Cinque and Yu Ma},
+keywords = {Application logs, Process discovery, Conformance checking, Uncertainty, Failure detection},
+abstract = {Computer applications, such as servers, databases and middleware, ubiquitously emit execution traces stored in log files. The use of logs for the analysis of application failures is known since the early days of computers. Field data studies have shown that application logs are fraught with uncertainty, i.e., missing or noisy events in the logs. A body of research that has dealt successfully with uncertainty in event logs is process mining from the business process management community, specifically by discovering process models. The literature has shown the value of process mining across several domains, but as yet there is no study that quantifies possible improvements from using process models, and the impact of uncertainty in the context of application failures. This work addresses the use of process mining for detecting failures from application logs. First, process models are discovered from logs; then conformance checking is used to detect deviations from the models. We contribute to knowledge engineering research with a systematic measurement study that quantifies the failure detection capability of conformance checking in spite of missing events, and its accuracy with respect to process models obtained from noisy logs. Analysis is done with a dataset of 55,462 execution traces from three independent real-life applications. We obtain a mixed answer depending on the application under test; our measurements provide insights into the use of process mining for failure analysis.}
+}
+
+@inproceedings{nolle2016unsupervised,
+  title={Unsupervised anomaly detection in noisy business process event logs using denoising autoencoders},
+  author={Nolle, Timo and Seeliger, Alexander and M{\"u}hlh{\"a}user, Max},
+  booktitle={International conference on discovery science},
+  pages={442--456},
+  year={2016},
+  organization={Springer}
+}
+
+@article{nolle2018analyzing,
+  title={Analyzing business process anomalies using autoencoders},
+  author={Nolle, Timo and Luettgen, Stefan and Seeliger, Alexander and M{\"u}hlh{\"a}user, Max},
+  journal={Machine Learning},
+  volume={107},
+  number={11},
+  pages={1875--1893},
+  year={2018},
+  publisher={Springer}
+}
+@article{nolle2019binet,
+  title={Binet: Multi-perspective business process anomaly classification},
+  author={Nolle, Timo and Luettgen, Stefan and Seeliger, Alexander and M{\"u}hlh{\"a}user, Max},
+  journal={Information Systems},
+  pages={101458},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@INPROCEEDINGS{rehse2020,
+  author={Fareed {Zandkarimi} and Jana-Rebeca {Rehse} and Pouya {Soudmand} and Hartmut {Hoehle}},
+  booktitle={2020 2nd International Conference on Process Mining (ICPM)}, 
+  title={A Generic Framework for Trace Clustering in Process Mining}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={177-184}
+  }
+  
+@ARTICLE{weber2016dependability,
+author={I. {Weber} and S. {Nepal} and L. {Zhu}},
+journal={IEEE Internet Computing}, 
+title={Developing Dependable and Secure Cloud Applications}, 
+year={2016},
+volume={20},
+number={3},
+pages={74-79}
+}
+
+@inproceedings{carter1982time,
+  title={A time for reflection},
+  author={Carter, William C},
+  booktitle={Proc. 8th IEEE Int. Symposium on Fault Tolerant Computing (FTCS-8)},
+  pages={41},
+  year={1982}
+}
+
+@Inbook{Laprie1992,
+author="Laprie, J. C.",
+editor="Laprie, J. C.",
+title="Dependability: Basic Concepts and Terminology",
+year="1992",
+publisher="Springer Vienna",
+address="Vienna",
+pages="3--245",
+abstract="This document is aimed at giving informal but precise definitions characterizing the various attributes of computing systems dependability. It is a contribution to the work undertaken within the ``Reliable and Fault Tolerant Computing'' scientific and technical community [Avi 67, Jes 77, Mel 77, Avi 78, Ran 78, Car 79, And 81, FTC 82, Sie 82, Cri 85a, Lap 85, Avi 86, Lap 89] in order to propose clear and widely acceptable definitions for some basic concepts."
+}
+

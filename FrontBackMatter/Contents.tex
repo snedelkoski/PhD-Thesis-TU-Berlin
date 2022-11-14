@@ -1,0 +1,127 @@
+% Table of Contents - List of Tables/Figures/Listings and Acronyms
+
+\refstepcounter{dummy}
+\dominitoc
+\pdfbookmark[1]{\contentsname}{tableofcontents} % Bookmark name visible in a PDF viewer
+
+\setcounter{tocdepth}{1} % Depth of sections to include in the table of contents - currently up to subsections
+\setcounter{minitocdepth}{1}
+
+\setcounter{secnumdepth}{3} % Depth of sections to number in the text itself - currently up to subsubsections
+
+\manualmark
+\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\tableofcontents 
+\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+
+\clearpage
+
+\begingroup 
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+%----------------------------------------------------------------------------------------
+%	List of Figures
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listfigurename} % Uncomment if you would like the list of figures to appear in the table of contents
+\pdfbookmark[1]{\listfigurename}{lof} % Bookmark name visible in a PDF viewer
+
+\listoffigures
+
+\vspace{8ex}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	List of Tables
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listtablename} % Uncomment if you would like the list of tables to appear in the table of contents
+\pdfbookmark[1]{\listtablename}{lot} % Bookmark name visible in a PDF viewer
+
+\listoftables
+        
+\vspace{8ex}
+\newpage
+    
+%----------------------------------------------------------------------------------------
+%	List of Listings
+%---------------------------------------------------------------------------------------- 
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
+\pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
+
+%\lstlistoflistings 
+
+\vspace{8ex}
+\newpage
+       
+%----------------------------------------------------------------------------------------
+%	Acronyms
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{Acronyms} % Uncomment if you would like the acronyms to appear in the table of contents
+\pdfbookmark[1]{Acronyms}{acronyms} % Bookmark name visible in a PDF viewer
+
+\markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
+
+\chapter*{Acronyms}
+
+\begin{acronym}[UML]
+\acro{HPC}{High Performance Computing}
+\acro{OM}{Operation and Maintenance}
+\acro{SOA}{Service Oriented Architectures}
+\acro{QoS}{Quality of Service}
+\acro{AIOPs}{Artificial Intelligence for IT Operations}
+\acro{HTTP}{Hypertext Transfer Protocol}
+\acro{RPC}{Remote Procedure Call}
+\acro{PCA}{Principal Component Analysis}
+\acro{TN}{True Negatives}
+\acro{FP}{False Positives}
+\acro{TP}{True Positives}
+\acro{FN}{False Negatives}
+\acro{ROC}{Receiver Operating Characteristic}
+\acro{AUC}{Area Under the Curve}
+\acro{ReLU}{Rectified Linear Unit}
+\acro{VAE}{Variational Autoencoder}
+\acro{CNN}{Convolutional Neural Network}
+\acro{RNN}{Recurrent Neural Network}
+\acro{GRU}{Gated Recurrent Unit}
+\acro{LSTM}{Long Short-Term Memory}
+\acro{ELBO}{Evidence Lower Bound Otimization}
+\acro{MSE}{Mean Squared Error}
+\acro{CPU}{Central Processing Unit}
+\acro{GPU}{Graphics Processing Unit}
+\acro{RPCA}{Robust PCA}
+\acro{MLP}{Multilayer Perceptron}
+\acro{ESD}{Extreme Studentized Deviate}
+\acro{KPI}{Key Performance Indicator}
+\acro{EM}{Expectation Maximization}
+\acro{GMM}{Gaussian Mixture Model}
+\acro{DAGM}{Deep Autoencoding GMM}
+\acro{MLM}{Masked Languge Modeling}
+\acro{BGL}{Blue Gene L}
+\acro{HDFS}{Hadoop Distributed File System}
+\acro{PA}{Parsing Accuracy}
+\acro{TF-IDF}{Term Frequency–Inverse Document Frequency}
+\acro{SVM}{Support Vector Machine}
+\acro{IM}{Invariant Mining}
+\acro{MSP}{Masked Span Prediction}
+\acro{LS}{Learning Scenario}
+\acro{VM}{Virtual Machine}
+\acro{MQ}{Message Queue}
+\acro{MTTR}{Mean Time to Repair}
+
+
+
+
+\end{acronym}  
+                   
+\endgroup
